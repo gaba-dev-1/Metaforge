@@ -7,7 +7,7 @@
 [![React](https://img.shields.io/badge/React-14532d?style=for-the-badge&logo=react&logoColor=white)](https://reactjs.org)
 [![TypeScript](https://img.shields.io/badge/TypeScript-d97706?style=for-the-badge&logo=typescript&logoColor=white)](https://typescript.org)
 [![Node.js](https://img.shields.io/badge/Node.js-374151?style=for-the-badge&logo=node.js&logoColor=white)](https://nodejs.org)
-
+ 
 *Where data-driven competition meets community predictions*
 
 </div>
