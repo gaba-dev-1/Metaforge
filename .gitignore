@@ -1,0 +1,13 @@
+node_modules/
+.env*
+.vscode/
+.DS_Store
+dist/
+build/
+target/
+*.log
+*.tmp
+.cache/
+__pycache__/
+.next/
+coverage/
