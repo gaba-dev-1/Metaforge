@@ -1,0 +1,675 @@
+@import '@fontsource/exo-2/400.css';
+@import '@fontsource/exo-2/500.css';
+@import '@fontsource/exo-2/600.css';
+@import '@fontsource/exo-2/700.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ===== Base Styles ===== */
+html, body { 
+  @apply text-corona-light bg-void-core overscroll-none;
+  font-family: 'Exo 2', sans-serif;
+  letter-spacing: -0.01em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  @apply font-sans tracking-tight text-stellar-white;
+  letter-spacing: -0.02em;
+}
+
+/* ===== UI Components ===== */
+.tooltip { 
+  @apply absolute bg-eclipse-shadow/95 border border-solar-flare/60 rounded-lg p-2 text-xs pointer-events-none z-50 whitespace-nowrap transition-opacity shadow-solar; 
+  backdrop-filter: blur(8px);
+}
+
+/* Table styles - MAJOR FIX for row height */
+.stats-table { 
+  @apply w-full border-collapse;
+}
+
+.stats-table th { 
+  @apply sticky top-0 z-10 bg-void-core/95 px-4 py-3 text-left text-solar-flare font-semibold tracking-wider border-b border-solar-flare/30; 
+  font-family: 'Exo 2', sans-serif;
+}
+
+.stats-table td {
+  @apply px-4 py-3 border-b border-solar-flare/10 align-middle;
+  font-family: 'Exo 2', sans-serif;
+}
+
+.stats-table tbody tr { 
+  @apply hover:bg-solar-flare/20 transition-colors duration-300;
+  height: 64px; /* EXPLICIT HEIGHT FIX */
+  min-height: 64px;
+}
+
+.stats-table tbody tr:nth-child(even) {
+  @apply bg-eclipse-shadow/30;
+}
+
+/* Stats table container - ensure proper scrolling */
+.stats-table-container {
+  max-height: calc(100vh - 340px);
+  overflow-y: auto;
+  border: 1px solid rgba(245, 158, 11, 0.3);
+  border-radius: 0.5rem;
+}
+
+/* Scrollbars */
+::-webkit-scrollbar { 
+  @apply w-2 h-2; 
+}
+
+::-webkit-scrollbar-track { 
+  @apply bg-void-core/50 rounded-sm; 
+}
+
+::-webkit-scrollbar-thumb { 
+  @apply bg-solar-flare/70 rounded-sm; 
+}
+
+/* ===== Component Classes ===== */
+@layer components {
+  .card { 
+    @apply bg-eclipse-shadow/70 rounded-xl shadow-eclipse border border-solar-flare/30 p-4 transition-all duration-300;
+    backdrop-filter: blur(8px);
+  }
+  
+  .card:hover {
+    @apply border-solar-flare/40 shadow-solar;
+  }
+  
+  .stat-box { 
+    @apply bg-void-core/60 p-3 rounded-lg text-center border border-solar-flare/10 transition-all duration-300; 
+  }
+  
+  .stat-box:hover {
+    @apply border-solar-flare/30;
+  }
+  
+  .filter-btn { 
+    @apply px-3 py-1 text-xs rounded-full transition-all duration-300; 
+  }
+  
+  .filter-active { 
+    @apply bg-solar-flare text-void-core; 
+  }
+  
+  .filter-inactive { 
+    @apply bg-eclipse-shadow/30 hover:bg-eclipse-shadow/50 border border-solar-flare/20 hover:border-solar-flare/40; 
+  }
+  
+  .section-card {
+    @apply bg-eclipse-shadow/20 rounded-xl p-4 border border-solar-flare/10 transition-all duration-300;
+  }
+  
+  .section-title {
+    @apply text-lg font-semibold text-solar-flare mb-3;
+  }
+  
+  .panel-card {
+    @apply bg-void-core/60 rounded-xl border border-solar-flare/40 backdrop-filter backdrop-blur-md transition-all duration-300;
+  }
+  
+  .panel-title {
+    @apply text-solar-flare text-lg px-3 py-2 ml-1 border-b border-solar-flare/20;
+  }
+
+  .feature-banner {
+    @apply bg-eclipse-shadow/60 border border-solar-flare/40 p-3 rounded-xl backdrop-blur-md shadow-solar transition-all duration-300;
+  }
+
+  .feature-cards-container {
+    @apply grid grid-cols-1 md:grid-cols-3 gap-3;
+  }
+  
+  .feature-card {
+    @apply h-full bg-void-core/20 backdrop-filter backdrop-blur-md overflow-hidden relative rounded-xl border border-solar-flare/30 shadow-md transition-all duration-300 hover:bg-eclipse-shadow/50 hover:border-solar-flare/50 hover:shadow-solar;
+  }
+  
+  /* Solar Eclipse Button System */
+  .btn {
+    @apply px-4 py-2 rounded-lg font-medium transition-all duration-300 transform;
+  }
+  
+  .btn:hover {
+    @apply scale-105 shadow-solar;
+  }
+  
+  .btn-primary {
+    @apply bg-gradient-to-r from-solar-flare to-burning-warning text-void-core shadow-md;
+  }
+  
+  .btn-secondary {
+    @apply bg-eclipse-shadow text-corona-light border border-solar-flare/50;
+  }
+  
+  .btn-ghost {
+    @apply bg-transparent text-corona-light border border-solar-flare/30 hover:bg-solar-flare/10;
+  }
+  
+  /* Loading State Classes */
+  .loading-shimmer {
+    @apply animate-pulse bg-eclipse-shadow/30 rounded-lg;
+  }
+  
+  .loading-overlay {
+    @apply absolute inset-0 bg-void-core/60 flex items-center justify-center z-50 backdrop-filter backdrop-blur-sm;
+  }
+  
+  .loading-spinner {
+    @apply relative;
+  }
+  
+  .loading-spinner:before {
+    content: "";
+    @apply w-full h-full rounded-full absolute;
+    border: 4px solid rgba(245, 158, 11, 0.1);
+  }
+  
+  .loading-spinner:after {
+    content: "";
+    @apply w-full h-full rounded-full absolute animate-spin;
+    border: 4px solid transparent;
+    border-top-color: #f59e0b;
+    border-radius: 50%;
+  }
+  
+  .error-banner {
+    @apply bg-crimson-alert/30 text-corona-light rounded-lg border border-crimson-alert/60 p-3 my-2 flex justify-between items-center backdrop-filter backdrop-blur-sm transition-all duration-300;
+  }
+}
+
+/* ===== Hexagon Grid System - Solar Enhancement ===== */
+.honeycomb-container {
+  @apply flex flex-col justify-center items-center overflow-hidden;
+  background: transparent;
+  filter: drop-shadow(0px 2px 8px rgba(0, 0, 0, 0.4));
+}
+
+/* Hex rows */
+.hex-row {
+  @apply flex relative;
+  margin-bottom: -8px;
+}
+
+.hex-row:nth-child(odd) { margin-right: 36px; }
+.hex-row:nth-child(even) { margin-left: 58px; }
+
+/* Basic hex cell */
+.hex-cell {
+  width: 84px;
+  height: 92px;
+  @apply relative mr-2.5 transition-all duration-300;
+}
+
+/* Hex container with clip path for hexagonal shape */
+.hex-container {
+  width: 84px;
+  height: 92px;
+  @apply absolute flex justify-center items-center transition-all duration-300;
+  clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+  background: rgba(41, 37, 36, 0.7);
+  box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.6), 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+.hex-container:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  @apply transition-opacity duration-300 opacity-0;
+  background: linear-gradient(45deg, rgba(245, 158, 11, 0.1), rgba(251, 146, 60, 0.05));
+}
+
+.hex-container:hover {
+  background: rgba(41, 37, 36, 0.8);
+}
+
+.hex-container:hover:before {
+  @apply opacity-100;
+}
+
+.hex-drop-active { 
+  background: rgba(245, 158, 11, 0.2) !important;
+  box-shadow: 0 0 15px rgba(245, 158, 11, 0.3);
+}
+
+.hex-drop-active:before {
+  @apply opacity-100;
+}
+
+.hex-drop-invalid { 
+  background: rgba(220, 38, 38, 0.2) !important;
+  box-shadow: 0 0 15px rgba(220, 38, 38, 0.3);
+}
+
+/* Star container to allow overflow outside hex */
+.star-container {
+    position: absolute;
+    top: -5px;
+    left: 50%;
+    transform: translateX(-50%);  
+    z-index: 30;
+    filter: drop-shadow(0px 1px 4px rgba(245, 158, 11, 0.7));
+}
+
+/* ===== Units and Items ===== */
+/* Units on the board */
+.unit-wrapper {
+  @apply relative w-full flex flex-col items-center touch-manipulation transition-transform duration-300;
+}
+
+.unit-wrapper:hover {
+  @apply scale-105;
+}
+
+.board-unit {
+  width: 78px;
+  height: 84px;
+  @apply relative z-10 flex justify-center items-center cursor-grab touch-manipulation transition-all duration-300;
+  clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+}
+
+.board-unit-border {
+  @apply absolute w-full h-full transition-all duration-300;
+  clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+}
+
+.board-unit-content {
+  @apply absolute flex justify-center items-center transition-all duration-300;
+  width: calc(100% - 4px);
+  height: calc(100% - 4px);
+  top: 2px;
+  left: 2px;
+  clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+  background-color: #1c1917;
+}
+
+.board-unit-content:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  @apply transition-opacity duration-300 opacity-0;
+  background: linear-gradient(45deg, rgba(245, 158, 11, 0.15), rgba(251, 146, 60, 0.05));
+}
+
+.board-unit:hover .board-unit-content:before {
+  @apply opacity-100;
+}
+
+.board-unit-img {
+  @apply w-full h-full object-cover transition-transform duration-300;
+  transform: scale(1.0);
+}
+
+.board-unit:hover .board-unit-img {
+  transform: scale(1.05);
+}
+
+/* Selector units - Changed to square format */
+.selector-unit-wrapper {
+  @apply relative cursor-grab inline-block touch-manipulation transition-transform duration-300;
+}
+
+.selector-unit-wrapper:hover {
+  @apply scale-105;
+}
+
+.selector-unit-border {
+  width: 48px;
+  height: 48px;
+  @apply absolute transition-all duration-300;
+  clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+}
+
+.selector-unit-content {
+  @apply absolute flex justify-center items-center overflow-hidden transition-all duration-300;
+  width: calc(100% - 2px);
+  height: calc(100% - 2px);
+  top: 1px;
+  left: 1px;
+  clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+  background-color: #1c1917;
+}
+
+.selector-unit-content:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  @apply transition-opacity duration-300 opacity-0;
+  background: linear-gradient(45deg, rgba(245, 158, 11, 0.15), rgba(251, 146, 60, 0.05));
+}
+
+.selector-unit-wrapper:hover .selector-unit-content:before {
+  @apply opacity-100;
+}
+
+.selector-unit-img {
+  @apply w-full h-full object-contain transition-transform duration-300;
+}
+
+.selector-unit-wrapper:hover .selector-unit-img {
+  transform: scale(1.1);
+}
+
+/* Item container */
+.item-container-absolute {
+  @apply absolute bottom-0.5 left-1/2 flex justify-center p-0.5 z-50 rounded-lg pointer-events-auto w-auto;
+  transform: translateX(-50%);
+  background: rgba(28, 25, 23, 0.85);
+  border: 1px solid rgba(245, 158, 11, 0.6);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
+}
+
+.item-wrapper {
+  @apply relative w-5 h-5 mx-px transition-transform duration-150 touch-manipulation;
+}
+
+.item-wrapper:hover { 
+  transform: scale(1.2);
+  filter: drop-shadow(0 0 5px rgba(245, 158, 11, 0.5));
+}
+
+.item-img {
+  @apply w-full h-full object-contain transition-all duration-300;
+  filter: drop-shadow(0 0 3px rgba(245, 158, 11, 0.4));
+}
+
+.item-wrapper:hover .item-img {
+  filter: drop-shadow(0 0 5px rgba(245, 158, 11, 0.7));
+}
+
+/* ===== Feature Card Styling ===== */
+.feature-hex-container {
+  @apply relative w-16 h-16 flex items-center justify-center transition-all duration-300;
+}
+
+.feature-hex-svg {
+  @apply absolute w-14 h-14 transition-all duration-300;
+  filter: drop-shadow(0 0 2px rgba(245, 158, 11, 0.2));
+}
+
+.feature-card:hover .feature-hex-svg {
+  filter: drop-shadow(0 0 3px rgba(245, 158, 11, 0.3));
+}
+
+.feature-hex-content {
+  @apply text-solar-flare text-3xl relative z-20 transition-all duration-300;
+}
+
+.feature-card:hover .feature-hex-content {
+  @apply text-burning-warning scale-105;
+}
+
+.feature-hex-glow {
+  @apply absolute inset-0 opacity-0 transition-all duration-300;
+}
+
+.feature-card:hover .feature-hex-glow {
+  @apply opacity-10;
+}
+
+/* ===== Dropdown Menu Styling ===== */
+.dropdown-content {
+  @apply absolute z-50 w-48 mt-1 bg-eclipse-shadow/95 rounded-xl shadow-solar;
+  animation: fadeIn 0.2s cubic-bezier(0.2, 0.8, 0.2, 1);
+  backdrop-filter: blur(8px);
+  border: 1px solid rgba(245, 158, 11, 0.3);
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(-8px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.dropdown-content a, .dropdown-content button {
+  @apply block px-4 py-2 text-sm hover:bg-solar-flare/10 text-corona-light transition-colors duration-200;
+}
+
+.dropdown-content a:first-child, .dropdown-content button:first-child {
+  @apply rounded-t-xl;
+}
+
+.dropdown-content a:last-child, .dropdown-content button:last-child {
+  @apply rounded-b-xl;
+}
+
+/* ===== Mobile optimizations ===== */
+@media (max-width: 640px) {
+  .stats-table {
+    @apply text-xs;
+  }
+  
+  .stats-table td, .stats-table th {
+    @apply px-2 py-2;
+  }
+  
+  .stats-table tbody tr {
+    height: 48px; /* Smaller height for mobile */
+    min-height: 48px;
+  }
+  
+  .honeycomb-container {
+    @apply p-2 scale-90 transform-gpu;
+    min-width: 100%;
+    margin-left: -5%;
+  }
+  
+  .hex-cell {
+    @apply mr-1.5;
+  }
+}
+
+/* Custom scrollbar */
+.custom-scrollbar::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: rgba(30, 20, 10, 0.2);
+  border-radius: 10px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: rgba(245, 158, 11, 0.3);
+  border-radius: 10px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: rgba(245, 158, 11, 0.5);
+}
+
+/* For Firefox */
+.custom-scrollbar {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(245, 158, 11, 0.3) rgba(30, 20, 10, 0.2);
+}
+
+/* ===== Enhanced Responsive Styles ===== */
+
+/* Responsive container handling */
+.responsive-container {
+  width: 100%;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+@media (min-width: 640px) {
+  .responsive-container {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .responsive-container {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+}
+
+/* Mobile menu animation */
+@keyframes slideDown {
+  from { max-height: 0; opacity: 0; }
+  to { max-height: 1000px; opacity: 1; }
+}
+
+@keyframes slideUp {
+  from { max-height: 1000px; opacity: 1; }
+  to { max-height: 0; opacity: 0; }
+}
+
+.menu-enter {
+  animation: slideDown 0.3s cubic-bezier(0.2, 0.8, 0.2, 1) forwards;
+}
+
+.menu-exit {
+  animation: slideUp 0.3s cubic-bezier(0.2, 0.8, 0.2, 1) forwards;
+}
+
+/* Dropdown positioning for mobile */
+@media (max-width: 768px) {
+  .dropdown-content {
+    position: absolute;
+    right: 0;
+    width: 180px;
+    background-color: rgba(41, 37, 36, 0.95);
+    box-shadow: 0 4px 12px rgba(245, 158, 11, 0.3);
+    z-index: 50;
+  }
+}
+
+/* Enhanced stats table responsiveness */
+@media (max-width: 640px) {
+  .stats-table th,
+  .stats-table td {
+    padding: 0.5rem 0.25rem;
+    font-size: 0.75rem;
+  }
+  
+  .stats-table th:first-child,
+  .stats-table td:first-child {
+    padding-left: 0.5rem;
+  }
+  
+  .stats-table th:last-child,
+  .stats-table td:last-child {
+    padding-right: 0.5rem;
+  }
+}
+
+/* Fix for overlapping elements in cards on mobile */
+@media (max-width: 640px) {
+  .card {
+    padding: 0.75rem;
+  }
+  
+  .feature-cards-container {
+    gap: 0.5rem;
+  }
+  
+  .feature-card {
+    padding: 0.5rem;
+  }
+}
+
+/* Ensure horizontal scrolling works properly on mobile */
+.overflow-x-auto {
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: none; /* Firefox */
+}
+
+.overflow-x-auto::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, Edge */
+}
+
+/* ===== Solar Eclipse Interactive Elements ===== */
+.solar-btn {
+  @apply relative overflow-hidden rounded-lg px-4 py-2 
+         bg-gradient-to-r from-solar-flare to-burning-warning 
+         text-void-core font-medium 
+         transition-all duration-300 transform hover:scale-105;
+  box-shadow: 0 4px 10px rgba(245, 158, 11, 0.3);
+}
+
+.solar-btn:after {
+  content: "";
+  @apply absolute inset-0 opacity-0 transition-opacity duration-300;
+  background: linear-gradient(45deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+}
+
+.solar-btn:hover:after {
+  @apply opacity-100;
+}
+
+.solar-btn:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(245, 158, 11, 0.4);
+}
+
+/* Tier List styling */
+.tier-s {
+  @apply bg-gradient-to-r from-solar-flare to-burning-warning text-void-core font-semibold;
+}
+
+.tier-a {
+  @apply bg-gradient-to-r from-solar-flare/80 to-burning-warning/70 text-void-core font-medium;
+}
+
+.tier-b {
+  @apply bg-gradient-to-r from-solar-flare/60 to-burning-warning/50 text-void-core;
+}
+
+.tier-c {
+  @apply bg-gradient-to-r from-solar-flare/40 to-burning-warning/30 text-void-core;
+}
+
+/* Custom focus states */
+input:focus, select:focus, textarea:focus {
+  @apply outline-none ring-2 ring-solar-flare/50;
+}
+
+/* Solar Eclipse Transition Effects */
+.solar-transition {
+  @apply transition-all duration-300 ease-in-out;
+}
+
+.solar-page-transition {
+  animation: fadeInPage 0.4s cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+
+@keyframes fadeInPage {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* Pulse animation with solar accent */
+.solar-pulse {
+  @apply relative;
+}
+
+.solar-pulse:after {
+  content: '';
+  @apply absolute inset-0 rounded-full;
+  box-shadow: 0 0 0 0 rgba(245, 158, 11, 0.7);
+  animation: solarPulse 2s infinite;
+}
+
+@keyframes solarPulse {
+  0% { box-shadow: 0 0 0 0 rgba(245, 158, 11, 0.7); }
+  70% { box-shadow: 0 0 0 10px rgba(245, 158, 11, 0); }
+  100% { box-shadow: 0 0 0 0 rgba(245, 158, 11, 0); }
+}

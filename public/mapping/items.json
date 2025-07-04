@@ -1,0 +1,1373 @@
+{
+  "items": {
+    "TFT14_Item_Nitro_ChromeCounter": {
+      "name": "Chrome Counter",
+      "category": "Special",
+      "icon": "TFT14_Item_Nitro_ChromeCounter.png",
+      "description": "Tracks Chrome for the Nitro trait. Every round, Nitro champions grant Chrome to R-080T based on their star level. At 200 Chrome, it upgrades to T-43X.",
+      "stats": []
+    },
+    "TFT_Item_BFSword": {
+      "name": "B.F. Sword",
+      "category": "Special",
+      "icon": "TFT_Item_BFSword.png",
+      "description": "Basic component that grants Attack Damage.",
+      "stats": ["+10% Attack Damage"]
+    },
+    "TFT_Item_ChainVest": {
+      "name": "Chain Vest",
+      "category": "Special",
+      "icon": "TFT_Item_ChainVest.png",
+      "description": "Basic component that grants Armor.",
+      "stats": ["+20 Armor"]
+    },
+    "TFT_Item_GiantsBelt": {
+      "name": "Giant's Belt",
+      "category": "Special",
+      "icon": "TFT_Item_GiantsBelt.png",
+      "description": "Basic component that grants Health.",
+      "stats": ["+150 Health"]
+    },
+    "TFT_Item_NeedlesslyLargeRod": {
+      "name": "Needlessly Large Rod",
+      "category": "Special",
+      "icon": "TFT_Item_NeedlesslyLargeRod.png",
+      "description": "Basic component that grants Ability Power.",
+      "stats": ["+10 Ability Power"]
+    },
+    "TFT_Item_NegatronCloak": {
+      "name": "Negatron Cloak",
+      "category": "Special",
+      "icon": "TFT_Item_NegatronCloak.png",
+      "description": "Basic component that grants Magic Resist.",
+      "stats": ["+20 Magic Resist"]
+    },
+    "TFT_Item_RecurveBow": {
+      "name": "Recurve Bow",
+      "category": "Special",
+      "icon": "TFT_Item_RecurveBow.png",
+      "description": "Basic component that grants Attack Speed.",
+      "stats": ["+10% Attack Speed"]
+    },
+    "TFT_Item_SparringGloves": {
+      "name": "Sparring Gloves",
+      "category": "Special",
+      "icon": "TFT_Item_SparringGloves.png",
+      "description": "Basic component that grants Critical Strike Chance.",
+      "stats": ["+20% Critical Strike Chance"]
+    },
+    "TFT_Item_TearOfTheGoddess": {
+      "name": "Tear of the Goddess",
+      "category": "Special",
+      "icon": "TFT_Item_TearOfTheGoddess.png",
+      "description": "Basic component that grants Mana.",
+      "stats": ["+15 Mana"]
+    },
+    "TFT_Item_Spatula": {
+      "name": "Spatula",
+      "category": "Special",
+      "icon": "TFT_Item_Spatula.png",
+      "description": "It must do something...",
+      "stats": []
+    },
+    "TFT_Item_FryingPan": {
+      "name": "Frying Pan",
+      "category": "Special",
+      "icon": "TFT_Item_FryingPan.png",
+      "description": "Why else would it be here?",
+      "stats": []
+    },
+    "TFT_Item_AdaptiveHelm": {
+      "name": "Adaptive Helm",
+      "category": "Crafted",
+      "icon": "TFT_Item_AdaptiveHelm.png",
+      "description": "Combat start: Gain different bonuses based on starting position. Front Two Rows: 40 Armor and Magic Resist. Gain 1 Mana when struck by an attack. Back Two Rows: 15 Ability Power. Gain 10 Mana every 3 seconds.",
+      "stats": ["+20 Magic Resist", "+15 Starting Mana", "+10 Ability Power"],
+      "recipe": ["TFT_Item_NegatronCloak", "TFT_Item_TearOfTheGoddess"]
+    },
+    "TFT_Item_ArchangelsStaff": {
+      "name": "Archangel's Staff",
+      "category": "Crafted",
+      "icon": "TFT_Item_ArchangelsStaff.png",
+      "description": "Combat start: Grant 30 Ability Power every 5 seconds.",
+      "stats": ["+20 Ability Power", "+15 Starting Mana"],
+      "recipe": ["TFT_Item_NeedlesslyLargeRod", "TFT_Item_TearOfTheGoddess"]
+    },
+    "TFT_Item_Bloodthirster": {
+      "name": "Bloodthirster",
+      "category": "Crafted",
+      "icon": "TFT_Item_Bloodthirster.png",
+      "description": "Grant 20% Omnivamp. Once per combat at 40% Health, gain a 25% maximum Health shield that lasts up to 5 seconds.",
+      "stats": ["+15% Attack Damage", "+15 Ability Power", "+20 Magic Resist"],
+      "recipe": ["TFT_Item_BFSword", "TFT_Item_NegatronCloak"]
+    },
+    "TFT_Item_BlueBuff": {
+      "name": "Blue Buff",
+      "category": "Crafted",
+      "icon": "TFT_Item_BlueBuff.png",
+      "description": "Gain 10 mana after casting. When the holder gets a takedown, they deal 5% more damage for 8 seconds.",
+      "stats": ["+30 Starting Mana", "+15 Ability Power"],
+      "recipe": ["TFT_Item_TearOfTheGoddess", "TFT_Item_TearOfTheGoddess"]
+    },
+    "TFT_Item_BrambleVest": {
+      "name": "Bramble Vest",
+      "category": "Crafted",
+      "icon": "TFT_Item_BrambleVest.png",
+      "description": "Grants 7% max health. Take 8% reduced damage from attacks. When struck by any attack, deal 100 magic damage to all adjacent enemies (once every 2 seconds).",
+      "stats": [],
+      "recipe": ["TFT_Item_ChainVest", "TFT_Item_ChainVest"]
+    },
+    "TFT_Item_Crownguard": {
+      "name": "Crownguard",
+      "category": "Crafted",
+      "icon": "TFT_Item_Crownguard.png",
+      "description": "Combat start: Gain a 25% max Health Shield for 8 seconds. When the shield expires, gain 25 Ability Power.",
+      "stats": ["+20 Armor", "+100 Health"],
+      "recipe": ["TFT_Item_ChainVest", "TFT_Item_NeedlesslyLargeRod"]
+    },
+    "TFT_Item_Deathblade": {
+      "name": "Deathblade",
+      "category": "Crafted",
+      "icon": "TFT_Item_Deathblade.png",
+      "description": "Deal 10% bonus damage.",
+      "stats": [],
+      "recipe": ["TFT_Item_BFSword", "TFT_Item_BFSword"]
+    },
+    "TFT_Item_DragonsClaw": {
+      "name": "Dragon's Claw",
+      "category": "Crafted",
+      "icon": "TFT_Item_DragonsClaw.png",
+      "description": "Gain 9% max health. Every 2 seconds, regenerate 2.5% maximum Health.",
+      "stats": [],
+      "recipe": ["TFT_Item_NegatronCloak", "TFT_Item_NegatronCloak"]
+    },
+    "TFT_Item_ForceOfNature": {
+      "name": "Tactician's Crown",
+      "category": "Crafted",
+      "icon": "TFT_Item_ForceOfNature.png",
+      "description": "Your team gains +1 max team size. 10% chance to drop 1 gold when you win combat.",
+      "stats": [],
+      "recipe": ["TFT_Item_Spatula", "TFT_Item_Spatula"]
+    },
+    "TFT_Item_FrozenHeart": {
+      "name": "Protector's Vow",
+      "category": "Crafted",
+      "icon": "TFT_Item_FrozenHeart.png",
+      "description": "Once per combat: At 40% Health, gain a 25% maximum Health shield that lasts up to 5 seconds and 20 Armor and Magic Resist for the rest of combat.",
+      "stats": ["+30 Starting Mana"],
+      "recipe": ["TFT_Item_ChainVest", "TFT_Item_TearOfTheGoddess"]
+    },
+    "TFT_Item_GargoyleStoneplate": {
+      "name": "Gargoyle Stoneplate",
+      "category": "Crafted",
+      "icon": "TFT_Item_GargoyleStoneplate.png",
+      "description": "Grants 10 Armor and 10 Magic Resist for each enemy targeting the holder.",
+      "stats": ["+25 Armor", "+25 Magic Resist"],
+      "recipe": ["TFT_Item_ChainVest", "TFT_Item_NegatronCloak"]
+    },
+    "TFT_Item_GuardianAngel": {
+      "name": "Edge of Night",
+      "category": "Crafted",
+      "icon": "TFT_Item_GuardianAngel.png",
+      "description": "Once per combat: At 60% Health, briefly become untargetable and shed negative effects. Then, gain 15% bonus Attack Speed.",
+      "stats": ["+20 Armor"],
+      "recipe": ["TFT_Item_BFSword", "TFT_Item_ChainVest"]
+    },
+    "TFT_Item_GuinsoosRageblade": {
+      "name": "Guinsoo's Rageblade",
+      "category": "Crafted",
+      "icon": "TFT_Item_GuinsoosRageblade.png",
+      "description": "Attacks grant 5% stacking Attack Speed.",
+      "stats": ["+10% Attack Speed"],
+      "recipe": ["TFT_Item_NeedlesslyLargeRod", "TFT_Item_RecurveBow"]
+    },
+    "TFT_Item_HextechGunblade": {
+      "name": "Hextech Gunblade",
+      "category": "Crafted",
+      "icon": "TFT_Item_HextechGunblade.png",
+      "description": "Heal the lowest percent Health ally for 25% of damage dealt.",
+      "stats": ["+20% Attack Damage", "+15% Omnivamp"],
+      "recipe": ["TFT_Item_BFSword", "TFT_Item_NeedlesslyLargeRod"]
+    },
+    "TFT_Item_InfinityEdge": {
+      "name": "Infinity Edge",
+      "category": "Crafted",
+      "icon": "TFT_Item_InfinityEdge.png",
+      "description": "Abilities can critically strike. If the holder's abilities can already critically strike, gain 10% Critical Strike Damage instead.",
+      "stats": ["+35% Critical Strike Chance"],
+      "recipe": ["TFT_Item_BFSword", "TFT_Item_SparringGloves"]
+    },
+    "TFT_Item_IonicSpark": {
+      "name": "Ionic Spark",
+      "category": "Crafted",
+      "icon": "TFT_Item_IonicSpark.png",
+      "description": "30% Shred enemies within 2 hexes. When enemies cast an Ability, they are also zapped for magic damage equal to 160% of their maximum Mana.",
+      "stats": ["+15 Ability Power", "+25 Magic Resist"],
+      "recipe": ["TFT_Item_NeedlesslyLargeRod", "TFT_Item_NegatronCloak"]
+    },
+    "TFT_Item_JeweledGauntlet": {
+      "name": "Jeweled Gauntlet",
+      "category": "Crafted",
+      "icon": "TFT_Item_JeweledGauntlet.png",
+      "description": "If the holder's abilities can already critically strike, gain 10% Critical Strike Damage instead.",
+      "stats": ["+35% Critical Strike Chance"],
+      "recipe": ["TFT_Item_NeedlesslyLargeRod", "TFT_Item_SparringGloves"]
+    },
+    "TFT_Item_LastWhisper": {
+      "name": "Last Whisper",
+      "category": "Crafted",
+      "icon": "TFT_Item_LastWhisper.png",
+      "description": "Any physical damage dealt 30% Sunders the target for 3 seconds. This effect does not stack.",
+      "stats": ["+20% Attack Speed", "+20% Critical Strike Chance"],
+      "recipe": ["TFT_Item_RecurveBow", "TFT_Item_SparringGloves"]
+    },
+    "TFT_Item_Leviathan": {
+      "name": "Nashor's Tooth",
+      "category": "Crafted",
+      "icon": "TFT_Item_Leviathan.png",
+      "description": "After casting an Ability, gain 60% Attack Speed for 5 seconds.",
+      "stats": ["+10 Ability Power", "+150 Health"],
+      "recipe": ["TFT_Item_RecurveBow", "TFT_Item_GiantsBelt"]
+    },
+    "TFT_Item_MadredsBloodrazor": {
+      "name": "Giant Slayer",
+      "category": "Crafted",
+      "icon": "TFT_Item_MadredsBloodrazor.png",
+      "description": "Deal 20% more damage to enemies with more than 1750 maximum Health.",
+      "stats": ["+10% Attack Speed", "+25 Ability Power", "+5% Damage Amp"],
+      "recipe": ["TFT_Item_RecurveBow", "TFT_Item_BFSword"]
+    },
+    "TFT_Item_Morellonomicon": {
+      "name": "Morellonomicon",
+      "category": "Crafted",
+      "icon": "TFT_Item_Morellonomicon.png",
+      "description": "Ability damage deals 1% Burn and 33% Wound to enemies for 10 seconds.",
+      "stats": ["+150 Health", "+10% Attack Speed"],
+      "recipe": ["TFT_Item_GiantsBelt", "TFT_Item_NeedlesslyLargeRod"]
+    },
+    "TFT_Item_NightHarvester": {
+      "name": "Steadfast Heart",
+      "category": "Crafted",
+      "icon": "TFT_Item_NightHarvester.png",
+      "description": "Take 8% less damage. While above 50% Health, take 15% less damage, instead.",
+      "stats": ["+200 Health", "+20% Critical Strike Chance"],
+      "recipe": ["TFT_Item_ChainVest", "TFT_Item_SparringGloves"]
+    },
+    "TFT_Item_PowerGauntlet": {
+      "name": "Guardbreaker",
+      "category": "Crafted",
+      "icon": "TFT_Item_PowerGauntlet.png",
+      "description": "After damaging a shielded enemy, Abilities and attacks deal 15% more damage for 3 seconds.",
+      "stats": ["+20% Critical Strike Chance", "+10 Ability Power", "+20% Attack Speed", "+10% Damage Amp"],
+      "recipe": ["TFT_Item_SparringGloves", "TFT_Item_GiantsBelt"]
+    },
+    "TFT_Item_Quicksilver": {
+      "name": "Quicksilver",
+      "category": "Crafted",
+      "icon": "TFT_Item_Quicksilver.png",
+      "description": "Combat start: Gain immunity to crowd control for 18 seconds. During this time, gain 3% Attack Speed every 2 seconds.",
+      "stats": ["+20 Magic Resist", "+20% Critical Strike Chance"],
+      "recipe": ["TFT_Item_NegatronCloak", "TFT_Item_SparringGloves"]
+    },
+    "TFT_Item_RabadonsDeathcap": {
+      "name": "Rabadon's Deathcap",
+      "category": "Crafted",
+      "icon": "TFT_Item_RabadonsDeathcap.png",
+      "description": "Deal 15% bonus damage.",
+      "stats": [],
+      "recipe": ["TFT_Item_NeedlesslyLargeRod", "TFT_Item_NeedlesslyLargeRod"]
+    },
+    "TFT_Item_RapidFireCannon": {
+      "name": "Red Buff",
+      "category": "Crafted",
+      "icon": "TFT_Item_RapidFireCannon.png",
+      "description": "Deal 6% bonus damage. Attacks and Abilities 1% Burn and 33% Wound enemies for 5 seconds.",
+      "stats": [],
+      "recipe": ["TFT_Item_RecurveBow", "TFT_Item_RecurveBow"]
+    },
+    "TFT_Item_RedBuff": {
+      "name": "Sunfire Cape",
+      "category": "Crafted",
+      "icon": "TFT_Item_RedBuff.png",
+      "description": "Gain 8% max health. Every 2 seconds, an enemy within 2 hexes is 1% Burned and 33% Wounded for 10 seconds.",
+      "stats": ["+20 Armor", "+150 Health"],
+      "recipe": ["TFT_Item_ChainVest", "TFT_Item_GiantsBelt"]
+    },
+    "TFT_Item_RunaansHurricane": {
+      "name": "Runaan's Hurricane",
+      "category": "Crafted",
+      "icon": "TFT_Item_RunaansHurricane.png",
+      "description": "Attacks fire a bolt at a nearby enemy, dealing 60% attack damage as physical damage.",
+      "stats": ["+10% Attack Speed", "+20 Magic Resist"],
+      "recipe": ["TFT_Item_RecurveBow", "TFT_Item_NegatronCloak"]
+    },
+    "TFT_Item_SpearOfShojin": {
+      "name": "Spear of Shojin",
+      "category": "Crafted",
+      "icon": "TFT_Item_SpearOfShojin.png",
+      "description": "Attacks restores 5 additional mana.",
+      "stats": ["+15 Ability Power", "+15 Starting Mana"],
+      "recipe": ["TFT_Item_BFSword", "TFT_Item_TearOfTheGoddess"]
+    },
+    "TFT_Item_SpectralGauntlet": {
+      "name": "Evenshroud",
+      "category": "Crafted",
+      "icon": "TFT_Item_SpectralGauntlet.png",
+      "description": "30% Sunder enemies within 2 hexes. Gain 25 Armor and Magic Resist for the first 15 seconds of combat.",
+      "stats": ["+20 Magic Resist"],
+      "recipe": ["TFT_Item_GiantsBelt", "TFT_Item_NegatronCloak"]
+    },
+    "TFT_Item_StatikkShiv": {
+      "name": "Statikk Shiv",
+      "category": "Crafted",
+      "icon": "TFT_Item_StatikkShiv.png",
+      "description": "Every 3rd attack unleashes chain lightning that bounces to 4 enemies, dealing 35 magic damage and 30% Shredding them for 5 seconds.",
+      "stats": ["+15% Attack Speed", "+15 Starting Mana", "+15 Ability Power"],
+      "recipe": ["TFT_Item_RecurveBow", "TFT_Item_TearOfTheGoddess"]
+    },
+    "TFT_Item_SteraksGage": {
+      "name": "Sterak's Gage",
+      "category": "Crafted",
+      "icon": "TFT_Item_SteraksGage.png",
+      "description": "Once per combat at 60% Health, gain 25% max Health and 35% Attack Damage.",
+      "stats": ["+15% Attack Damage", "+150 Health"],
+      "recipe": ["TFT_Item_BFSword", "TFT_Item_GiantsBelt"]
+    },
+    "TFT_Item_TacticiansRing": {
+      "name": "Tactician's Cape",
+      "category": "Crafted",
+      "icon": "TFT_Item_TacticiansRing.png",
+      "description": "10% chance to drop 1 gold after 10 seconds of combat.",
+      "stats": [],
+      "recipe": ["TFT_Item_Spatula", "TFT_Item_FryingPan"]
+    },
+    "TFT_Item_TacticiansScepter": {
+      "name": "Tactician's Shield",
+      "category": "Crafted",
+      "icon": "TFT_Item_TacticiansScepter.png",
+      "description": "10% chance to drop 1 gold when the holder dies.",
+      "stats": [],
+      "recipe": ["TFT_Item_FryingPan", "TFT_Item_FryingPan"]
+    },
+    "TFT_Item_ThiefsGloves": {
+      "name": "Thief's Gloves",
+      "category": "Crafted",
+      "icon": "TFT_Item_ThiefsGloves.png",
+      "description": "Each round: Equip 2 random items. Consumes 3 item slots.",
+      "stats": ["+150 Health"],
+      "recipe": ["TFT_Item_SparringGloves", "TFT_Item_SparringGloves"]
+    },
+    "TFT_Item_TitanicHydra": {
+      "name": "Titanic Hydra",
+      "category": "Crafted",
+      "icon": "TFT_Item_TitanicHydra.png",
+      "description": "Attacks deal bonus damage based on the holder's maximum Health. Attacks cleave for a portion of the damage dealt.",
+      "stats": [],
+      "recipe": ["TFT_Item_RecurveBow", "TFT_Item_GiantsBelt"]
+    },
+    "TFT_Item_TitansResolve": {
+      "name": "Titan's Resolve",
+      "category": "Crafted",
+      "icon": "TFT_Item_TitansResolve.png",
+      "description": "Grants 2% Attack Damage and 2 Ability Power when attacking or taking damage, stacking up to 25 times. At full stacks, grant 20 Armor and 20 Magic Resist.",
+      "stats": ["+20 Armor"],
+      "recipe": ["TFT_Item_RecurveBow", "TFT_Item_ChainVest"]
+    },
+    "TFT_Item_UnstableConcoction": {
+      "name": "Hand Of Justice",
+      "category": "Crafted",
+      "icon": "TFT_Item_UnstableConcoction.png",
+      "description": "Grant 2 effects: +15% Attack Damage and +15 Ability Power, 12% Omnivamp. While above 50% health, double the Attack Damage and Ability Power. While below 50% Health, double the Omnivamp.",
+      "stats": ["+20% Critical Strike Chance"],
+      "recipe": ["TFT_Item_TearOfTheGoddess", "TFT_Item_SparringGloves"]
+    },
+    "TFT_Item_WarmogsArmor": {
+      "name": "Warmog's Armor",
+      "category": "Crafted",
+      "icon": "TFT_Item_WarmogsArmor.png",
+      "description": "Gain 12% max health.",
+      "stats": [],
+      "recipe": ["TFT_Item_GiantsBelt", "TFT_Item_GiantsBelt"]
+    },
+    "TFT11_Item_ThiefsGlovesSupport": {
+      "name": "Thief's Gloves Support",
+      "category": "Support",
+      "icon": "TFT11_Item_ThiefsGlovesSupport.png",
+      "description": "The holder gains 2 temporary items at the start of each round.",
+      "stats": []
+    },
+    "TFT_Item_AegisOfTheLegion": {
+      "name": "Aegis of the Legion",
+      "category": "Support",
+      "icon": "TFT_Item_AegisOfTheLegion.png",
+      "description": "Combat start: Grant 25% Attack Speed and 15 Armor and Magic Resist to the holder, adjacent allies, and all allies behind them for 12 seconds.",
+      "stats": []
+    },
+    "TFT_Item_BansheesVeil": {
+      "name": "Banshee's Veil",
+      "category": "Support",
+      "icon": "TFT_Item_BansheesVeil.png",
+      "description": "Combat Start: Grant the holder and all allies within 1 hexes in the same row immunity to crowd control and 25% Attack Speed for 18 seconds.",
+      "stats": []
+    },
+    "TFT_Item_Chalice": {
+      "name": "Chalice of Power",
+      "category": "Support",
+      "icon": "TFT_Item_Chalice.png",
+      "description": "Combat start: Grant 25 Ability Power and 10 Mana to the holder and allies within 2 hexes in the same row.",
+      "stats": []
+    },
+    "TFT_Item_SupportKnightsVow": {
+      "name": "Knight's Vow",
+      "category": "Support",
+      "icon": "TFT_Item_SupportKnightsVow.png",
+      "description": "Combat start: Grant 200 Health and 15% Omnivamp to the holder and allies within 1 hex in the same row.",
+      "stats": []
+    },
+    "TFT_Item_EternalFlame": {
+      "name": "The Eternal Flame",
+      "category": "Support",
+      "icon": "TFT_Item_EternalFlame.png",
+      "description": "While the holder is alive, all enemies are 33% Wounded and all allies deal 8% Damage Amp. This effect refreshes every 5 seconds.",
+      "stats": []
+    },
+    "TFT_Item_LocketOfTheIronSolari": {
+      "name": "Locket of the Iron Solari",
+      "category": "Support",
+      "icon": "TFT_Item_LocketOfTheIronSolari.png",
+      "description": "Combat start: The holder and allies within 2 hexes in the same row gain a 250 Shield, 20 Armor, and 20 Magic Resist for 20 seconds.",
+      "stats": []
+    },
+    "TFT_Item_Moonstone": {
+      "name": "Moonstone Renewer",
+      "category": "Support",
+      "icon": "TFT_Item_Moonstone.png",
+      "description": "Every 4 seconds, grant a 55-325 Shield (based on Stage) to the 2 lowest percent health allies for 4 seconds.",
+      "stats": []
+    },
+    "TFT_Item_NeedlesslyBigGem": {
+      "name": "Needlessly Big Gem",
+      "category": "Support",
+      "icon": "TFT_Item_NeedlesslyBigGem.png",
+      "description": "Your team deals 5% bonus damage. Each second the holder is alive, your team deals an additional 1% bonus damage, up to a total of 20%.",
+      "stats": []
+    },
+    "TFT_Item_RadiantVirtue": {
+      "name": "Virtue of the Martyr",
+      "category": "Support",
+      "icon": "TFT_Item_RadiantVirtue.png",
+      "description": "Every 5 seconds, heal your team for 7% of their max Health. When the holder dies, the healing increases to 14% max Health for 2 extra heals.",
+      "stats": []
+    },
+    "TFT_Item_Redemption": {
+      "name": "Redemption",
+      "category": "Support",
+      "icon": "TFT_Item_Redemption.png",
+      "description": "Heal allies within 1 hex for 15% of their missing Health every 5 seconds. They also take 10% less damage for 5 seconds (damage reduction does not stack).",
+      "stats": ["+15 Starting Mana"]
+    },
+    "TFT_Item_SentinelSwarm": {
+      "name": "Sentinel Swarm",
+      "category": "Support",
+      "icon": "TFT_Item_SentinelSwarm.png",
+      "description": "Grant a swarm of sentinels that protect allies.",
+      "stats": []
+    },
+    "TFT_Item_Shroud": {
+      "name": "Shroud of Stillness",
+      "category": "Support",
+      "icon": "TFT_Item_Shroud.png",
+      "description": "Combat start: Shoot a beam that 30% Mana Reaves enemies. Your team gains 60 Health.",
+      "stats": []
+    },
+    "TFT_Item_Spite": {
+      "name": "Spite",
+      "category": "Support",
+      "icon": "TFT_Item_Spite.png",
+      "description": "Combat start: The holder and all adjacent allies gain 15% Attack Damage and 20 Ability Power. When the holder dies, Stun all enemies within 2-hexes for 2 seconds.",
+      "stats": []
+    },
+    "TFT_Item_UnstableTreasureChest": {
+      "name": "Unstable Treasure Chest",
+      "category": "Support",
+      "icon": "TFT_Item_UnstableTreasureChest.png",
+      "description": "When the holder dies, the 4 highest percent health allies gain a temporary completed item.",
+      "stats": []
+    },
+    "TFT_Item_ZekesHerald": {
+      "name": "Zeke's Herald",
+      "category": "Support",
+      "icon": "TFT_Item_ZekesHerald.png",
+      "description": "Combat start: Grant 30% Attack Speed to the holder and allies within 2 hexes in the same row.",
+      "stats": []
+    },
+    "TFT_Item_Zephyr": {
+      "name": "Zephyr",
+      "category": "Support",
+      "icon": "TFT_Item_Zephyr.png",
+      "description": "Combat start: Summon a whirlwind on the opposite side of the arena that removes the closest enemy from combat for 5 seconds. Your team gains 2% Attack Speed.",
+      "stats": []
+    },
+    "TFT5_Item_ZzRotPortalSupport": {
+      "name": "Zz'Rot Portal",
+      "category": "Support",
+      "icon": "TFT5_Item_ZzRotPortalSupport.png",
+      "description": "Summon a large Voidspawn. Its strength increases with each Stage. [Unique - only 1 per champion]",
+      "stats": []
+    },
+    "TFT4_Item_OrnnObsidianCleaver": {
+      "name": "Obsidian Cleaver",
+      "category": "Support",
+      "icon": "TFT4_Item_OrnnObsidianCleaver.png",
+      "description": "Damage dealt 30% Shreds and 30% Sunders enemies for 15 seconds. Your team gains 8% Attack Damage and 8 Ability Power.",
+      "stats": []
+    },
+    "TFT4_Item_OrnnRanduinsSanctum": {
+      "name": "Randuin's Omen",
+      "category": "Support",
+      "icon": "TFT4_Item_OrnnRanduinsSanctum.png",
+      "description": "Combat start: Grant 30 Armor and 30 Magic Resistance to the holder and adjacent allies.",
+      "stats": []
+    },
+    "TFT9_Item_OrnnPrototypeForge": {
+      "name": "Accomplice's Gloves",
+      "category": "Support",
+      "icon": "TFT9_Item_OrnnPrototypeForge.png",
+      "description": "Copy equipped items from the ally directly to your left or right. These items work at 66% effectiveness.",
+      "stats": []
+    },
+    "TFT14_AnimaSquad_T1_Magic": {
+      "name": "Anima Squad Tier 1 Magic",
+      "category": "Special",
+      "icon": "TFT14_AnimaSquad_T1_Magic.png",
+      "description": "Guiding Hex - Every 4 seconds, a random Anima Squad champion casts Guiding Hex, dealing magic damage to 3 random nearby targets.",
+      "stats": []
+    },
+    "TFT14_AnimaSquad_T1_Mines": {
+      "name": "Anima Squad Tier 1 Mines",
+      "category": "Special",
+      "icon": "TFT14_AnimaSquad_T1_Mines.png",
+      "description": "Ani-Mines - Every 5 seconds, a random Anima Squad champion throws three Ani-Mines that explode, dealing physical damage in an area.",
+      "stats": []
+    },
+    "TFT14_AnimaSquad_T1_SearingShortbow": {
+      "name": "Anima Squad Tier 1 Searing Shortbow",
+      "category": "Special",
+      "icon": "TFT14_AnimaSquad_T1_SearingShortbow.png",
+      "description": "Searing Shortbow - Every 5 seconds, a random Anima Squad champion fires Searing Shortbow, shooting an arrow that leaves an area that deals magic damage over time.",
+      "stats": []
+    },
+    "TFT14_AnimaSquad_T3_Laser": {
+      "name": "Anima Squad Tier 3 Laser",
+      "category": "Special",
+      "icon": "TFT14_AnimaSquad_T3_Laser.png",
+      "description": "The Annihilator - A powerful laser weapon that deals massive damage.",
+      "stats": []
+    },
+    "TFT14_AnimaSquad_T3_Train": {
+      "name": "Anima Squad Tier 3 Train",
+      "category": "Special",
+      "icon": "TFT14_AnimaSquad_T3_Train.png",
+      "description": "Final City Transit - Every few seconds, Final City Transit summons trains that run through the battlefield, dealing devastating damage and carrying away low health enemies.",
+      "stats": []
+    },
+    "TFT14_AnimaSquad_T3_YasuoQ": {
+      "name": "Anima Squad Tier 3 Yasuo Q",
+      "category": "Special",
+      "icon": "TFT14_AnimaSquad_T3_YasuoQ.png",
+      "description": "Tornadoes - Every 6 seconds, a random Anima Squad champion spawns a whirl of Tornadoes, dealing magic damage.",
+      "stats": []
+    },
+    "TFT14_AnimaSquad_Weapon_Boomerang": {
+      "name": "Anima Squad Weapon Boomerang",
+      "category": "Special",
+      "icon": "TFT14_AnimaSquad_Weapon_Boomerang.png",
+      "description": "Blade-o-rang - Every 4 seconds, a random Anima Squad champion throws a returning Blade-o-rang that deals physical damage, increased for the first target hit.",
+      "stats": []
+    },
+    "TFT14_AnimaSquad_Weapon_GatlingBunnyGuns": {
+      "name": "Anima Squad Weapon Gatling Bunny Guns",
+      "category": "Special",
+      "icon": "TFT14_AnimaSquad_Weapon_GatlingBunnyGuns.png",
+      "description": "Gatling Bunny-Guns - Every 5.5 seconds, a random Anima Squad champion fires Gatling Bunny-Guns in a long cone, dealing high physical damage.",
+      "stats": []
+    },
+    "TFT14_AnimaSquad_Weapon_SupplyDrop": {
+      "name": "Anima Squad Weapon Supply Drop",
+      "category": "Special",
+      "icon": "TFT14_AnimaSquad_Weapon_SupplyDrop.png",
+      "description": "Surprise Supply Drop - A supply drop that provides resources or benefits to your team.",
+      "stats": []
+    },
+    "TFT14_AnimaSquad_Weapon_UwUBlasters": {
+      "name": "Anima Squad Weapon UwU Blasters",
+      "category": "Special",
+      "icon": "TFT14_AnimaSquad_Weapon_UwUBlasters.png",
+      "description": "UwU Blasters - Every 4 seconds, a random Anima Squad champion rapidfires UwU Blasters, dealing physical damage to the first enemy hit.",
+      "stats": []
+    },
+    "TFT14_AnimaSquad_Weapon_VortexGlove": {
+      "name": "Anima Squad Weapon Vortex Glove",
+      "category": "Special",
+      "icon": "TFT14_AnimaSquad_Weapon_VortexGlove.png",
+      "description": "Vortex Glove - Every 5 seconds, a random Anima Squad champion fires piercing orbs from Vortex Glove, that deal magic damage, reduced for each enemy struck.",
+      "stats": []
+    },
+    "TFT14_Item_DivinicorpEmblemItem": {
+      "name": "Divinicorp Emblem",
+      "category": "Emblem",
+      "icon": "TFT14_Item_DivinicorpEmblemItem.png",
+      "description": "The holder gains the Divinicorp trait.",
+      "stats": [],
+      "recipe": ["TFT_Item_Spatula", "TFT_Item_RecurveBow"]
+    },
+    "TFT14_Item_StreetDemonEmblemItem": {
+      "name": "Street Demon Emblem",
+      "category": "Emblem",
+      "icon": "TFT14_Item_StreetDemonEmblemItem.png",
+      "description": "The holder gains the Street Demon trait.",
+      "stats": [],
+      "recipe": ["TFT_Item_Spatula", "TFT_Item_NeedlesslyLargeRod"]
+    },
+    "TFT14_Item_DarkWebEmblemItem": {
+      "name": "Anima Squad Emblem",
+      "category": "Emblem",
+      "icon": "TFT14_Item_DarkWebEmblemItem.png",
+      "description": "The holder gains the Anima Squad trait.",
+      "stats": [],
+      "recipe": ["TFT_Item_Spatula", "TFT_Item_RecurveBow"]
+    },
+    "TFT14_Item_CyberbossEmblemItem": {
+      "name": "Cyberboss Emblem",
+      "category": "Emblem",
+      "icon": "TFT14_Item_CyberbossEmblemItem.png",
+      "description": "The holder gains the Cyberboss trait.",
+      "stats": [],
+      "recipe": ["TFT_Item_Spatula", "TFT_Item_NeedlesslyLargeRod"]
+    },
+    "TFT14_Item_EdgeRunnerEmblemItem": {
+      "name": "Exotech Emblem",
+      "category": "Emblem",
+      "icon": "TFT14_Item_EdgeRunnerEmblemItem.png",
+      "description": "The holder gains the Exotech trait.",
+      "stats": [],
+      "recipe": ["TFT_Item_Spatula", "TFT_Item_RecurveBow"]
+    },
+    "TFT14_Item_ImmortalEmblemItem": {
+      "name": "Golden Ox Emblem",
+      "category": "Emblem",
+      "icon": "TFT14_Item_ImmortalEmblemItem.png",
+      "description": "The holder gains the Golden Ox trait.",
+      "stats": [],
+      "recipe": ["TFT_Item_Spatula", "TFT_Item_SparringGloves"]
+    },
+    "TFT14_Item_BallistekEmblemItem": {
+      "name": "BoomBot Emblem",
+      "category": "Emblem",
+      "icon": "TFT14_Item_BallistekEmblemItem.png",
+      "description": "The holder gains the BoomBot trait.",
+      "stats": [],
+      "recipe": ["TFT_Item_Spatula", "TFT_Item_RecurveBow"]
+    },
+    "TFT14_Item_MobEmblemItem": {
+      "name": "Syndicate Emblem",
+      "category": "Emblem",
+      "icon": "TFT14_Item_MobEmblemItem.png",
+      "description": "The holder gains the Syndicate trait.",
+      "stats": [],
+      "recipe": ["TFT_Item_Spatula", "TFT_Item_SparringGloves"]
+    },
+    "TFT14_Item_HotRodEmblemItem": {
+      "name": "Nitro Emblem",
+      "category": "Emblem",
+      "icon": "TFT14_Item_HotRodEmblemItem.png",
+      "description": "The holder gains the Nitro trait.",
+      "stats": [],
+      "recipe": ["TFT_Item_Spatula", "TFT_Item_RecurveBow"]
+    },
+    "TFT14_Item_SuitsEmblemItem": {
+      "name": "Cypher Emblem",
+      "category": "Emblem",
+      "icon": "TFT14_Item_SuitsEmblemItem.png",
+      "description": "The holder gains the Cypher trait.",
+      "stats": [],
+      "recipe": ["TFT_Item_Spatula", "TFT_Item_SparringGloves"]
+    },
+    "TFT14_Item_SuperchargeEmblemItem": {
+      "name": "A.M.P. Emblem",
+      "category": "Emblem",
+      "icon": "TFT14_Item_SuperchargeEmblemItem.png",
+      "description": "The holder gains the A.M.P. trait.",
+      "stats": [],
+      "recipe": ["TFT_Item_NeedlesslyLargeRod", "TFT_Item_FryingPan"]
+    },
+    "TFT14_Item_GuardianEmblemItem": {
+      "name": "Vanguard Emblem",
+      "category": "Emblem",
+      "icon": "TFT14_Item_GuardianEmblemItem.png",
+      "description": "The holder gains the Vanguard trait.",
+      "stats": [],
+      "recipe": ["TFT_Item_ChainVest", "TFT_Item_FryingPan"]
+    },
+    "TFT14_Item_StrongEmblemItem": {
+      "name": "Slayer Emblem",
+      "category": "Emblem",
+      "icon": "TFT14_Item_StrongEmblemItem.png",
+      "description": "The holder gains the Slayer trait.",
+      "stats": [],
+      "recipe": ["TFT_Item_NegatronCloak", "TFT_Item_FryingPan"]
+    },
+    "TFT14_Item_CutterEmblemItem": {
+      "name": "Executioner Emblem",
+      "category": "Emblem",
+      "icon": "TFT14_Item_CutterEmblemItem.png",
+      "description": "The holder gains the Executioner trait.",
+      "stats": [],
+      "recipe": ["TFT_Item_SparringGloves", "TFT_Item_FryingPan"]
+    },
+    "TFT14_Item_ArmorcladEmblemItem": {
+      "name": "Bastion Emblem",
+      "category": "Emblem",
+      "icon": "TFT14_Item_ArmorcladEmblemItem.png",
+      "description": "The holder gains the Bastion trait.",
+      "stats": [],
+      "recipe": ["TFT_Item_ChainVest", "TFT_Item_FryingPan"]
+    },
+    "TFT14_Item_SwiftEmblemItem": {
+      "name": "Rapidfire Emblem",
+      "category": "Emblem",
+      "icon": "TFT14_Item_SwiftEmblemItem.png",
+      "description": "The holder gains the Rapidfire trait.",
+      "stats": [],
+      "recipe": ["TFT_Item_RecurveBow", "TFT_Item_FryingPan"]
+    },
+    "TFT14_Item_ControllerEmblemItem": {
+      "name": "Strategist Emblem",
+      "category": "Emblem",
+      "icon": "TFT14_Item_ControllerEmblemItem.png",
+      "description": "The holder gains the Strategist trait.",
+      "stats": [],
+      "recipe": ["TFT_Item_TearOfTheGoddess", "TFT_Item_FryingPan"]
+    },
+    "TFT14_Item_BruiserEmblemItem": {
+      "name": "Bruiser Emblem",
+      "category": "Emblem",
+      "icon": "TFT14_Item_BruiserEmblemItem.png",
+      "description": "The holder gains the Bruiser trait.",
+      "stats": [],
+      "recipe": ["TFT_Item_Spatula", "TFT_Item_GiantsBelt"]
+    },
+    "TFT14_Item_MarksmanEmblemItem": {
+      "name": "Marksman Emblem",
+      "category": "Emblem",
+      "icon": "TFT14_Item_MarksmanEmblemItem.png",
+      "description": "The holder gains the Marksman trait.",
+      "stats": [],
+      "recipe": ["TFT_Item_BFSword", "TFT_Item_FryingPan"]
+    },
+    "TFT14_Item_TechieEmblemItem": {
+      "name": "Techie Emblem",
+      "category": "Emblem",
+      "icon": "TFT14_Item_TechieEmblemItem.png",
+      "description": "The holder gains the Techie trait.",
+      "stats": [],
+      "recipe": ["TFT_Item_Spatula", "TFT_Item_NeedlesslyLargeRod"]
+    },
+    "TFT14_Item_ThirstyEmblemItem": {
+      "name": "Dynamo Emblem",
+      "category": "Emblem",
+      "icon": "TFT14_Item_ThirstyEmblemItem.png",
+      "description": "The holder gains the Dynamo trait.",
+      "stats": [],
+      "recipe": ["TFT_Item_TearOfTheGoddess", "TFT_Item_FryingPan"]
+    },
+    "TFT4_Item_Artifact_InnervatingLocket": {
+      "name": "Innvervating Locket",
+      "category": "Artifact",
+      "icon": "TFT4_Item_Artifact_InnervatingLocket.png",
+      "description": "The holder gains 2% of their total Mana on hit, each cast restores 20% of the holder's max Health over 3 seconds.",
+      "stats": ["+150 Health", "+15 Mana"]
+    },
+    "TFT4_Item_OrnnAnimaVisage": {
+      "name": "Anima Visage",
+      "category": "Artifact",
+      "icon": "TFT4_Item_OrnnAnimaVisage.png",
+      "description": "Heal 3.5% max Health every second.",
+      "stats": ["+20 Armor", "+400 Health"]
+    },
+    "TFT4_Item_OrnnDeathsDefiance": {
+      "name": "Death's Defiance",
+      "category": "Artifact",
+      "icon": "TFT4_Item_OrnnDeathsDefiance.png",
+      "description": "50% of the damage the holder receives is instead dealt over 4 seconds as non-lethal damage.",
+      "stats": ["+30 Armor", "+25% Attack Speed", "+25% Omnivamp"]
+    },
+    "TFT4_Item_OrnnEternalWinter": {
+      "name": "Ornn Eternal Winter",
+      "category": "Artifact",
+      "icon": "TFT4_Item_OrnnEternalWinter.png",
+      "description": "Winter is coming...",
+      "stats": []
+    },
+    "TFT4_Item_OrnnInfinityForce": {
+      "name": "Infinity Force",
+      "category": "Artifact",
+      "icon": "TFT4_Item_OrnnInfinityForce.png",
+      "description": "Grant all stats.",
+      "stats": ["+25 Mana", "+25% Attack Damage", "+25 Ability Power", "+25 Armor", "+25 Magic Resist", "+25% Attack Speed"]
+    },
+    "TFT4_Item_OrnnMuramana": {
+      "name": "Manazane",
+      "category": "Artifact",
+      "icon": "TFT4_Item_OrnnMuramana.png",
+      "description": "After casting the first time in combat, gain 120 Mana over 5 seconds.",
+      "stats": ["+15% Attack Damage", "+15% Attack Speed", "+10 Ability Power"]
+    },
+    "TFT4_Item_OrnnTheCollector": {
+      "name": "Gold Collector",
+      "category": "Artifact",
+      "icon": "TFT4_Item_OrnnTheCollector.png",
+      "description": "Attacks and Abilities execute enemies below 12% of their max Health. Executions have a 33% chance to drop 1 gold.",
+      "stats": ["+30% Crit Chance"]
+    },
+    "TFT4_Item_OrnnZhonyasParadox": {
+      "name": "Zhonya's Paradox",
+      "category": "Artifact",
+      "icon": "TFT4_Item_OrnnZhonyasParadox.png",
+      "description": "Once per combat: At 40% Health, become invulnerable for 3 seconds.",
+      "stats": ["+30 Armor", "+30 Magic Resist"]
+    },
+    "TFT9_Item_OrnnDeathfireGrasp": {
+      "name": "Deathfire Grasp",
+      "category": "Artifact",
+      "icon": "TFT9_Item_OrnnDeathfireGrasp.png",
+      "description": "Combat start: Blast the current target for 40% of their max Health as magic damage. Repeat this every 13 seconds. For the next 10 seconds, gain 25% Damage Amp. Against the blasted target this is increased to 35%.",
+      "stats": ["+30 Ability Power"]
+    },
+    "TFT9_Item_OrnnHorizonFocus": {
+      "name": "Sniper's Focus",
+      "category": "Artifact",
+      "icon": "TFT9_Item_OrnnHorizonFocus.png",
+      "description": "Gain +2 Attack Range. Gain 9% Damage Amp against a target for each hex between the holder and the target.",
+      "stats": ["+15 Ability Power", "+15% Attack Speed"]
+    },
+    "TFT9_Item_OrnnHullbreaker": {
+      "name": "Hullcrusher",
+      "category": "Artifact",
+      "icon": "TFT9_Item_OrnnHullbreaker.png",
+      "description": "Combat start: If there are no adjacent allies, gain 600 Health, 20% Attack Damage, and 20 Ability Power.",
+      "stats": ["+35 Magic Resist"]
+    },
+    "TFT9_Item_OrnnTrickstersGlass": {
+      "name": "Trickster's Glass",
+      "category": "Artifact",
+      "icon": "TFT9_Item_OrnnTrickstersGlass.png",
+      "description": "Summon a clone with 70% maximum Health and 10% increased max Mana. You cannot equip items to the clone. The clone benefits from active traits.",
+      "stats": ["+10 Magic Resist", "+10% Attack Speed", "+15% Crit Chance"]
+    },
+    "TFT_Item_Artifact_BlightingJewel": {
+      "name": "Blighting Jewel",
+      "category": "Artifact",
+      "icon": "TFT_Item_Artifact_BlightingJewel.png",
+      "description": "Dealing magic damage reduces the target's Magic Resist by 4. If their Magic Resist is 0, grant the holder 5 Mana instead.",
+      "stats": ["+15 Mana"]
+    },
+    "TFT_Item_Artifact_ProwlersClaw": {
+      "name": "Prowler's Claw",
+      "category": "Artifact",
+      "icon": "TFT_Item_Artifact_ProwlersClaw.png",
+      "description": "After killing a target, shed negative effects and dash to the farthest target within 4 hexes. The next 2 critical attacks deal 60% bonus Critical Strike Damage.",
+      "stats": ["+40% Attack Damage", "+50% Critical Chance"]
+    },
+    "TFT_Item_Artifact_RapidFirecannon": {
+      "name": "Rapid Firecannon",
+      "category": "Artifact",
+      "icon": "TFT_Item_Artifact_RapidFirecannon.png",
+      "description": "Gain +1 Attack Range, increased by 1 whenever the holder kills an enemy.",
+      "stats": []
+    },
+    "TFT_Item_Artifact_TalismanOfAscension": {
+      "name": "Talisman of Ascension",
+      "category": "Artifact",
+      "icon": "TFT_Item_Artifact_TalismanOfAscension.png",
+      "description": "After 22 seconds gain 100% max Health and 120% increased damage for the rest of combat.",
+      "stats": ["+20% Attack Damage", "+20 Ability Power"]
+    },
+    "TFT14_Item_WitsEnd": {
+      "name": "Wit's End",
+      "category": "Artifact",
+      "icon": "TFT14_Item_WitsEnd.png",
+      "description": "Attacks deal 42-100 bonus magic damage. Heals the holder for 35% of all magic damage dealt. Damage increases based on Stage.",
+      "stats": ["+30 Mana"]
+    },
+    "TFT_Item_Artifact_Fishbones": {
+      "name": "Fishbones",
+      "category": "Artifact",
+      "icon": "TFT_Item_Artifact_Fishbones.png",
+      "description": "Doubles the holder's attack range, and causes each of their attacks to target a random enemy.",
+      "stats": ["+50% Attack Damage"]
+    },
+    "TFT_Item_Artifact_HorizonFocus": {
+      "name": "Horizon Focus",
+      "category": "Artifact",
+      "icon": "TFT_Item_Artifact_HorizonFocus.png",
+      "description": "Stunning an enemy causes lightning to strike them, dealing 30% of their max Health as magic damage.",
+      "stats": ["+15 Mana", "+20 Armor", "+20 Magic Resist"]
+    },
+    "TFT_Item_Artifact_InnervatLocket": {
+      "name": "Innervating Locket",
+      "category": "Artifact",
+      "icon": "TFT_Item_Artifact_InnervatLocket.png",
+      "description": "The holder gains 2% of their total Mana whenever they're hit by an attack. Each cast restores 20% of the holder's max Health over 3 seconds.",
+      "stats": ["+15 Mana"]
+    },
+    "TFT_Item_Artifact_LichBane": {
+      "name": "Lich Bane",
+      "category": "Artifact",
+      "icon": "TFT_Item_Artifact_LichBane.png",
+      "description": "The holder's first attack after each Ability cast deals 200-480 bonus magic damage. Damage increases based on Stage.",
+      "stats": ["+30 Ability Power"]
+    },
+    "TFT_Item_Artifact_LightshieldCrest": {
+      "name": "Lightshield Crest",
+      "category": "Artifact",
+      "icon": "TFT_Item_Artifact_LightshieldCrest.png",
+      "description": "Every 3 seconds, Shields the lowest percent Health ally for 55% of the holder's combined Armor and Magic Resist for 5 seconds. On death grants this shield to all allies.",
+      "stats": ["+70 Magic Resist"]
+    },
+    "TFT_Item_Artifact_LudensTempest": {
+      "name": "Luden's Tempest",
+      "category": "Artifact",
+      "icon": "TFT_Item_Artifact_LudensTempest.png",
+      "description": "100% of overkill damage plus 100 is dealt as magic damage to the three enemies nearest the target.",
+      "stats": ["+45 Ability Power"]
+    },
+    "TFT_Item_Artifact_Mittens": {
+      "name": "Mittens",
+      "category": "Artifact",
+      "icon": "TFT_Item_Artifact_Mittens.png",
+      "description": "Shrinks the holder, granting them increased movement speed and immunity to Chill.",
+      "stats": ["+25% Damage Reduction"]
+    },
+    "TFT_Item_Artifact_SeekersArmguard": {
+      "name": "Seeker's Armguard",
+      "category": "Artifact",
+      "icon": "TFT_Item_Artifact_SeekersArmguard.png",
+      "description": "Takedowns increase the holder's Armor, Magic Resist, and Ability Power by 15, increased to 20 if they score the kill.",
+      "stats": ["+30 Armor", "+30 Magic Resist"]
+    },
+    "TFT_Item_Artifact_SilvermereDawn": {
+      "name": "Silvermere Dawn",
+      "category": "Artifact",
+      "icon": "TFT_Item_Artifact_SilvermereDawn.png",
+      "description": "Grants immunity to Stuns and the holder's attacks Stun the target for 0.8 seconds. The holder's Attack Speed is locked at 0.5.",
+      "stats": ["+50 Armor", "+50 Magic Resist"]
+    },
+    "TFT_Item_Artifact_SpectralCutlass": {
+      "name": "Spectral Cutlass",
+      "category": "Artifact",
+      "icon": "TFT_Item_Artifact_SpectralCutlass.png",
+      "description": "Combat start: Teleport the holder to the mirrored hex on the enemy's side of the board. After 8 seconds, the holder returns to their original location.",
+      "stats": ["+40 Magic Resist", "+40% Attack Damage", "+20% Critical Chance"]
+    },
+    "TFT_Item_Artifact_SuspiciousTrenchCoat": {
+      "name": "Suspicious Trench Coat",
+      "category": "Artifact",
+      "icon": "TFT_Item_Artifact_SuspiciousTrenchCoat.png",
+      "description": "Once per combat at 60% Health, the holder splits into 3 copies of themselves each with 33% of their max Health.",
+      "stats": ["+15% Attack Speed"]
+    },
+    "TFT_Item_Artifact_UnendingDespair": {
+      "name": "Unending Despair",
+      "category": "Artifact",
+      "icon": "TFT_Item_Artifact_UnendingDespair.png",
+      "description": "Whenever a Shield on the holder breaks, 150% of that Shield's initial value is dealt to the nearest enemy as magic damage.",
+      "stats": ["+40 Armor"]
+    },
+    "TFT14_ZeriCyberneticItem": {
+      "name": "Flux Capacitor",
+      "category": "Special",
+      "icon": "TFT14_ZeriCyberneticItem.png",
+      "description": "Attacks store charge. At 4 charges, the next attack consumes the charges to deal 15% of the target's max health as physical damage and reduces their Armor by 10.",
+      "stats": []
+    },
+    "TFT14_ZeriCyberneticItem_Radiant": {
+      "name": "Fully-Charged Flux Capacitor",
+      "category": "Special",
+      "icon": "TFT14_ZeriCyberneticItem_Radiant.png",
+      "description": "Every other attack is charged, dealing 20% of the target's max health as physical damage and reduces their Armor by 15.",
+      "stats": ["+10% Damage Amp"]
+    },
+    "TFT14_NaafiriCyberneticItem": {
+      "name": "Hyper Fangs",
+      "category": "Special",
+      "icon": "TFT14_NaafiriCyberneticItem.png",
+      "description": "When you damage an enemy, store 30% of your damage dealt to them. After 4 seconds, deal the stored damage to the target and the nearest enemy as physical damage.",
+      "stats": []
+    },
+    "TFT14_NaafiriCyberneticItem_Radiant": {
+      "name": "Apex-Fangs",
+      "category": "Special",
+      "icon": "TFT14_NaafiriCyberneticItem_Radiant.png",
+      "description": "When you damage an enemy, store 40% of your damage dealt to them. After 3 seconds, deal the stored damage to the target and the 2 nearest enemies as physical damage.",
+      "stats": ["+50 Ability Power", "+25% Omnivamp"]
+    },
+    "TFT14_VarusCyberneticItem": {
+      "name": "Holobow",
+      "category": "Special",
+      "icon": "TFT14_VarusCyberneticItem.png",
+      "description": "Attacks that Critically Strike grant 2 bonus Mana. After casting an Ability, gain 40% Critical Strike Chance for 5 seconds.",
+      "stats": ["+30 AP, +25 AD, +15 Mana"]
+    },
+    "TFT14_VarusCyberneticItem_Radiant": {
+      "name": "Holobow",
+      "category": "Special",
+      "icon": "TFT14_VarusCyberneticItem_Radiant.png",
+      "description": "Attacks that Critically Strike grant 2 bonus Mana. After casting an Ability, gain 40% Critical Strike Chance for 5 seconds.",
+      "stats": ["+30 AP, +25 AD, +15 Mana"]
+    },
+    "TFT14_JhinCyberneticItem": {
+      "name": "Pulse Silencer",
+      "category": "Special",
+      "icon": "TFT14_JhinCyberneticItem.png",
+      "description": "Execute enemies below 12% Health. Abilities can critically strike. If the holder's abilities can already critically strike, gain 10% Critical Strike Damage instead.",
+      "stats": ["+30% Critical Strike Chance", "+30 AD"]
+    },
+    "TFT14_JhinCyberneticItem_Radiant": {
+      "name": "Pulse Silencer",
+      "category": "Special",
+      "icon": "TFT14_JhinCyberneticItem_Radiant.png",
+      "description": "Execute enemies below 15% Health. Abilities can critically strike. If the holder's abilities can already critically strike, gain 20% Critical Strike Damage instead.",
+      "stats": ["+50% Critical Strike Chance", "+10% Damage Amp"]
+    },
+    "TFT14_SejuaniCyberneticItem": {
+      "name": "Repulsor Lantern",
+      "category": "Special",
+      "icon": "TFT14_SejuaniCyberneticItem.png",
+      "description": "Gain 5% health. Every 3 seconds, deal 6% of the holder's max health as magic damage to all enemies within 1-hex.",
+      "stats": []
+    },
+    "TFT14_JaxCyberneticItem": {
+      "name": "Repulsor Lantern",
+      "category": "Special",
+      "icon": "TFT14_JaxCyberneticItem.png",
+      "description": "Gain 5% health. Every 3 seconds, deal 6% of the holder's max health as magic damage to all enemies within 1-hex.",
+      "stats": []
+    },
+    "TFT14_JaxCyberneticItem_Radiant": {
+      "name": "Nullifier Lantern",
+      "category": "Special",
+      "icon": "TFT14_JaxCyberneticItem_Radiant.png",
+      "description": "Gain 10% health. Every 2 seconds, deal 10% of the holder's max health as magic damage to all enemies within 2-hexes.",
+      "stats": ["+100 Health"]
+    },
+    "TFT14_MordekaiserCyberneticItem": {
+      "name": "Corrupted Chassis",
+      "category": "Special",
+      "icon": "TFT14_MordekaiserCyberneticItem.png",
+      "description": "All Shields are 15% more effective on the holder. Every 7 seconds, siphon 10% of the owner's max Health from the current target and convert it to a Shield for 5 seconds.",
+      "stats": []
+    },
+    "TFT14_MordekaiserCyberneticItem_Radiant": {
+      "name": "Harmonized Chassis",
+      "category": "Special",
+      "icon": "TFT14_MordekaiserCyberneticItem_Radiant.png",
+      "description": "All Shields are 25% more effective on the holder. Every 5 seconds, siphon 15% of the owner's max Health from the current target and convert it to a Shield for 5 seconds.",
+      "stats": ["+10% Damage Reduction"]
+    },
+    "TFT14_CybercoilItem": {
+      "name": "Cybercoil",
+      "category": "Special",
+      "icon": "TFT14_CybercoilItem.png",
+      "description": "Abilities and Attacks mark enemies for 8 seconds. Heal for 12% of damage dealt to marked enemies.",
+      "stats": ["+65 Magic Resist"]
+    },
+    "TFT14_HolobowItem": {
+      "name": "Holobow",
+      "category": "Special",
+      "icon": "TFT14_HolobowItem.png",
+      "description": "Attacks that Critically Strike grant 2 bonus Mana. After casting an Ability, gain 40% Critical Strike Chance for 5 seconds.",
+      "stats": ["+30% Ability Power", "+15 Mana"]
+    },
+    "TFT5_Item_AdaptiveHelmRadiant": {
+      "name": "Jak'sho the Protean",
+      "category": "Radiant",
+      "icon": "TFT5_Item_AdaptiveHelmRadiant.png",
+      "description": "Combat Start: Gain different bonuses based on starting position. Front Two Rows: 60 Armor and Magic Resist. Gain 2 Mana when struck by an attack. Back Two Rows: 40 Ability Power. Gain 20 Mana every 3 seconds.",
+      "stats": ["+15 Mana", "+30 Magic Resist"]
+    },
+    "TFT5_Item_ArchangelsStaffRadiant": {
+      "name": "Urf-Angel's Staff",
+      "category": "Radiant",
+      "icon": "TFT5_Item_ArchangelsStaffRadiant.png",
+      "description": "Combat start: Gain 40 Ability Power every 4 seconds in combat.",
+      "stats": ["+60 Ability Power"]
+    },
+    "TFT5_Item_BloodthirsterRadiant": {
+      "name": "Blessed Bloodthirster",
+      "category": "Radiant",
+      "icon": "TFT5_Item_BloodthirsterRadiant.png",
+      "description": "Once per combat: At 40% Health, gain a 40% max Health Shield that lasts up to 5 seconds.",
+      "stats": ["+40 Ability Power", "+20 Magic Resist", "+40% Omnivamp"]
+    },
+    "TFT5_Item_BlueBuffRadiant": {
+      "name": "Blue Blessing",
+      "category": "Radiant",
+      "icon": "TFT5_Item_BlueBuffRadiant.png",
+      "description": "Gain 10 mana after casting. When the holder gets a takedown, they deal 20% more damage for 12 seconds.",
+      "stats": ["+50 Ability Power", "+50% Attack Damage"]
+    },
+    "TFT5_Item_BrambleVestRadiant": {
+      "name": "Rosethorn Vest",
+      "category": "Radiant",
+      "icon": "TFT5_Item_BrambleVestRadiant.png",
+      "description": "Gain 15% max health. Take 25% reduced damage from attacks. When struck by an attack, deal 175 magic damage to all adjacent enemies (2s cooldown).",
+      "stats": []
+    },
+    "TFT5_Item_CrownguardRadiant": {
+      "name": "Royal Crownshield",
+      "category": "Radiant",
+      "icon": "TFT5_Item_CrownguardRadiant.png",
+      "description": "Combat start: Gain a 50% max health Shield for 8 seconds. When the shield expires, gain 50 Ability Power.",
+      "stats": ["+40 Ability Power", "+40 Armor"]
+    },
+    "TFT5_Item_DeathbladeRadiant": {
+      "name": "Luminous Deathblade",
+      "category": "Radiant",
+      "icon": "TFT5_Item_DeathbladeRadiant.png",
+      "description": "Deal 20% bonus damage.",
+      "stats": ["+20% Damage Amp"]
+    },
+    "TFT5_Item_DragonsClawRadiant": {
+      "name": "Dragon's Will",
+      "category": "Radiant",
+      "icon": "TFT5_Item_DragonsClawRadiant.png",
+      "description": "Gain 15% max health. Every 2 seconds, regenerate 10% max Health.",
+      "stats": []
+    },
+    "TFT5_Item_FrozenHeartRadiant": {
+      "name": "Bulwark's Oath",
+      "category": "Radiant",
+      "icon": "TFT5_Item_FrozenHeartRadiant.png",
+      "description": "Once per combat at 40% Health, gain a 50% max Health shield that lasts 10 seconds and gain 60 Armor and Magic Resist.",
+      "stats": ["+40 Armor"]
+    },
+    "TFT5_Item_GargoyleStoneplateRadiant": {
+      "name": "Dvarapala Stoneplate",
+      "category": "Radiant",
+      "icon": "TFT5_Item_GargoyleStoneplateRadiant.png",
+      "description": "Gain 15 Armor and 15 Magic Resist for each enemy targeting the holder. Also, heal 1.5% max Health each second.",
+      "stats": ["+50 Armor", "+50 Magic Resist"]
+    },
+    "TFT5_Item_GiantSlayerRadiant": {
+      "name": "Demonslayer",
+      "category": "Radiant",
+      "icon": "TFT5_Item_GiantSlayerRadiant.png",
+      "description": "Gain 30% Damage Amp against enemies with more than 1750 max Health.",
+      "stats": ["+50 Ability Power", "+10% Attack Speed", "+20% Damage Amp"]
+    },
+    "TFT5_Item_GuardianAngelRadiant": {
+      "name": "Brink of Dawn",
+      "category": "Radiant",
+      "icon": "TFT5_Item_GuardianAngelRadiant.png",
+      "description": "Once per combat: At 60% Health, briefly become untargetable and shed negative effects. Then, heal 100% missing health and gain 85% bonus Attack Speed.",
+      "stats": ["+30 Armor"]
+    },
+    "TFT5_Item_GuinsoosRagebladeRadiant": {
+      "name": "Guinsoo's Reckoning",
+      "category": "Radiant",
+      "icon": "TFT5_Item_GuinsoosRagebladeRadiant.png",
+      "description": "Attacks grant +10% stacking Attack Speed.",
+      "stats": ["+20% Attack Speed"]
+    },
+    "TFT5_Item_HandOfJusticeRadiant": {
+      "name": "Fist of Fairness",
+      "category": "Radiant",
+      "icon": "TFT5_Item_HandOfJusticeRadiant.png",
+      "description": "Gain 2 effects: 50% Attack Damage and 50 Ability Power, 30% Omnivamp. While above 50% health, double the Attack Damage and Ability Power. While below 50% Health, double the Omnivamp.",
+      "stats": ["+15 Mana"]
+    },
+    "TFT5_Item_HextechGunbladeRadiant": {
+      "name": "Hextech Lifeblade",
+      "category": "Radiant",
+      "icon": "TFT5_Item_HextechGunbladeRadiant.png",
+      "description": "Heal the lowest percent Health ally for 40% of damage dealt.",
+      "stats": ["+40 Ability Power", "+30% Omnivamp"]
+    },
+    "TFT5_Item_InfinityEdgeRadiant": {
+      "name": "Zenith Edge",
+      "category": "Radiant",
+      "icon": "TFT5_Item_InfinityEdgeRadiant.png",
+      "description": "Ability can critically strike. If the holder's abilities can already critically strike, gain 10% Critical Strike Damage instead.",
+      "stats": ["+75% Critical Strike Chance"]
+    },
+    "TFT5_Item_IonicSparkRadiant": {
+      "name": "Covalent Spark",
+      "category": "Radiant",
+      "icon": "TFT5_Item_IonicSparkRadiant.png",
+      "description": "30% Shred enemies within 3 hexes. When enemies cast an Ability, deal magic damage equal to 200% of the Mana spent. Also, heal 1.5% max Health per second.",
+      "stats": ["+15 Ability Power", "+40 Magic Resist"]
+    },
+    "TFT5_Item_JeweledGauntletRadiant": {
+      "name": "Glamorous Gauntlet",
+      "category": "Radiant",
+      "icon": "TFT5_Item_JeweledGauntletRadiant.png",
+      "description": "Ability can critically strike. If the holder's abilities can already critically strike, gain 10% Critical Strike Damage instead.",
+      "stats": ["+75% Critical Chance"]
+    },
+    "TFT5_Item_LastWhisperRadiant": {
+      "name": "Eternal Whisper",
+      "category": "Radiant",
+      "icon": "TFT5_Item_LastWhisperRadiant.png",
+      "description": "Physical damage 30% Sunders the target for the rest of combat. This effect does not stack.",
+      "stats": ["+25% Attack Speed", "+55% Crit Chance"]
+    },
+    "TFT5_Item_LeviathanRadiant": {
+      "name": "The Baron's Gift",
+      "category": "Radiant",
+      "icon": "TFT5_Item_LeviathanRadiant.png",
+      "description": "After casting an Ability, gain 120% Attack Speed for 8 seconds.",
+      "stats": ["+30 Ability Power", "+20% Attack Speed"]
+    },
+    "TFT5_Item_MorellonomiconRadiant": {
+      "name": "More More-ellonomicon",
+      "category": "Radiant",
+      "icon": "TFT5_Item_MorellonomiconRadiant.png",
+      "description": "Attacks and Abilities deal 2% Burn and 33% Wound to enemies for 8 seconds.",
+      "stats": ["+50 Ability Power", "+25% Attack Speed"]
+    },
+    "TFT5_Item_NightHarvesterRadiant": {
+      "name": "Legacy of the Colossus",
+      "category": "Radiant",
+      "icon": "TFT5_Item_NightHarvesterRadiant.png",
+      "description": "Gain 16% Durability. While above 40% Health, instead gain 30% Durability.",
+      "stats": ["+40 Armor", "+20% Critical Chance"]
+    },
+    "TFT5_Item_QuicksilverRadiant": {
+      "name": "Quickestsilver",
+      "category": "Radiant",
+      "icon": "TFT5_Item_QuicksilverRadiant.png",
+      "description": "Combat start: Gain immunity to crowd control for 45 seconds. For 18 seconds, gain 7% Attack Speed every 2 seconds.",
+      "stats": ["+50% Attack Speed", "+40% Critical Chance"]
+    },
+    "TFT5_Item_RabadonsDeathcapRadiant": {
+      "name": "Rabadon's Ascended Deathcap",
+      "category": "Radiant",
+      "icon": "TFT5_Item_RabadonsDeathcapRadiant.png",
+      "description": "Deal 33% bonus damage.",
+      "stats": ["+33% Damage Amplification"]
+    },
+    "TFT5_Item_RapidFirecannonRadiant": {
+      "name": "Crest of Cinders",
+      "category": "Radiant",
+      "icon": "TFT5_Item_RapidFirecannonRadiant.png",
+      "description": "Attacks and Abilities 2% Burn and 33% Wound enemies for 5 seconds.",
+      "stats": ["+5% Damage Amplification"]
+    },
+    "TFT5_Item_RedemptionRadiant": {
+      "name": "Absolution",
+      "category": "Radiant",
+      "icon": "TFT5_Item_RedemptionRadiant.png",
+      "description": "Heal allies within 2 hexes for 25% of their missing Health every 5 seconds. They also gain 10% Durability for 5 seconds (this does not stack).",
+      "stats": ["+15 Mana"]
+    },
+    "TFT5_Item_RunaansHurricaneRadiant": {
+      "name": "Runaan's Tempest",
+      "category": "Radiant",
+      "icon": "TFT5_Item_RunaansHurricaneRadiant.png",
+      "description": "Attacks fire a bolt at a nearby enemy, dealing 110% Attack Damage as physical damage.",
+      "stats": ["+20% Attack Speed", "+20 Magic Resist"]
+    },
+    "TFT5_Item_SpearOfShojinRadiant": {
+      "name": "Spear of Hirana",
+      "category": "Radiant",
+      "icon": "TFT5_Item_SpearOfShojinRadiant.png",
+      "description": "Attacks grant 10 bonus Mana.",
+      "stats": ["+35 Ability Power", "+20 Mana"]
+    },
+    "TFT5_Item_SpectralGauntletRadiant": {
+      "name": "Equinox",
+      "category": "Radiant",
+      "icon": "TFT5_Item_SpectralGauntletRadiant.png",
+      "description": "30% Sunder enemies within 3 hexes. Grant 70 Armor and Magic Resist for the first 20 seconds of combat.",
+      "stats": ["+30 Magic Resist"]
+    },
+    "TFT5_Item_StatikkShivRadiant": {
+      "name": "Statikk's Favor",
+      "category": "Radiant",
+      "icon": "TFT5_Item_StatikkShivRadiant.png",
+      "description": "Every 3rd attack deals 95 magic damage and 30% Shreds 8 enemies for 5 seconds.",
+      "stats": ["+50 Ability Power", "+20% Attack Speed"]
+    },
+    "TFT5_Item_SteraksGageRadiant": {
+      "name": "Sterak's Megashield",
+      "category": "Radiant",
+      "icon": "TFT5_Item_SteraksGageRadiant.png",
+      "description": "Once per combat at 60% Health, gain 40% max Health and 60% Attack Damage.",
+      "stats": ["+30% Attack Damage"]
+    },
+    "TFT5_Item_SunfireCapeRadiant": {
+      "name": "Sunlight Cape",
+      "category": "Radiant",
+      "icon": "TFT5_Item_SunfireCapeRadiant.png",
+      "description": "Every 1.5 seconds, deal 2% Burn and 33% Wound to an enemy within 3 hexes for 30 seconds.",
+      "stats": ["+40 Armor"]
+    },
+    "TFT5_Item_ThiefsGlovesRadiant": {
+      "name": "Rascal's Gloves",
+      "category": "Radiant",
+      "icon": "TFT5_Item_ThiefsGlovesRadiant.png",
+      "description": "Each round: Equip 2 random Radiant items. [Consumes 3 item slots]",
+      "stats": ["+20% Critical Chance"]
+    },
+    "TFT5_Item_TitansResolveRadiant": {
+      "name": "Titan's Vow",
+      "category": "Radiant",
+      "icon": "TFT5_Item_TitansResolveRadiant.png",
+      "description": "Grant 3% Attack Damage 3 Ability Power when attacking or taking damage, stacking up to 25 times. At full stacks, gain 50 Armor and Magic Resist.",
+      "stats": ["+30% Attack Speed"]
+    },
+    "TFT5_Item_TrapClawRadiant": {
+      "name": "Willbreaker",
+      "category": "Radiant",
+      "icon": "TFT5_Item_TrapClawRadiant.png",
+      "description": "After damaging a Shield, gain 30% Damage Amp for 3 seconds.",
+      "stats": ["+30% Attack Speed", "+30 Ability Power", "+20% Critical Chance", "+20% Damage Amp"]
+    },
+    "TFT5_Item_WarmogsArmorRadiant": {
+      "name": "Warmog's Pride",
+      "category": "Radiant",
+      "icon": "TFT5_Item_WarmogsArmorRadiant.png",
+      "description": "Gain 20% max health. Heal 1.5% max Health per second.",
+      "stats": []
+    },
+    "TFT5_Item_ZzRotPortalRadiant": {
+      "name": "Zz'Rot Portal",
+      "category": "Radiant",
+      "icon": "TFT5_Item_ZzRotPortalRadiant.png",
+      "description": "Summon a large Voidspawn. Its strength increases with each Stage. [Unique - only 1 per champion]",
+      "stats": []
+    },
+    "TFT7_Item_ShimmerscaleGamblersBlade": {
+      "name": "Gambler's Blade",
+      "category": "Special",
+      "icon": "TFT7_Item_ShimmerscaleGamblersBlade.png",
+      "description": "Gain 1% bonus Attack Speed per gold in your bank (up to 80 gold). Each attack has a 5% chance to drop 1 gold.",
+      "stats": ["+35% Attack Speed"]
+    },
+    "TFT7_Item_ShimmerscaleMogulsMail": {
+      "name": "Mogul's Mail",
+      "category": "Special",
+      "icon": "TFT7_Item_ShimmerscaleMogulsMail.png",
+      "description": "Grants 1 Armor, 1 Magic Resist, and 7 Health when taking damage, stacking up to 35 times. At full stacks, grant 1 gold and continue gaining 1 gold every 8 seconds.",
+      "stats": []
+    },
+    "TFT7_Item_ShimmerscaleHeartOfGold": {
+      "name": "Needlessly Big Gem",
+      "category": "Special",
+      "icon": "TFT7_Item_ShimmerscaleHeartOfGold.png",
+      "description": "If the holder is alive after 15 seconds of combat, your units deal 1% more damage (maximum 1 gold) per gold you have. For every 2 units alive when this happens, gain 1 gold.",
+      "stats": []
+    }
+  }
+}

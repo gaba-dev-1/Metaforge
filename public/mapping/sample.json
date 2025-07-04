@@ -1,0 +1,111 @@
+{
+  "units": {
+    "TFT14_Alistar": {
+      "name": "Alistar",
+      "icon": "TFT14_Alistar.png",
+      "cost": 1,
+      "traits": {
+        "origin": ["TFT14_Immortal"],
+        "class": ["TFT14_Bruiser"]
+      },
+      "ability": {
+        "name": "Gilded Endurance",
+        "description": "Passive: Reduce all incoming damage. Active: Deal magic damage to the current target and Stun them.",
+        "type": "Active"
+      },
+      "stats": {
+        "health": 650,
+        "armor": 40,
+        "magic_resist": 40,
+        "damage": 50,
+        "attack_speed": 0.55,
+        "dps": 28,
+        "start_mana": 30,
+        "max_mana": 100,
+        "crit_rate": 25,
+        "range": 1
+      }
+    }
+  }
+}
+{
+  "origins": {
+    "TFT14_Divinicorp": {
+      "name": "Divinicorp",
+      "description": "Divinicorp champions grant unique stats to your team, increased for each Divinicorp in play.",
+      "icon": "TFT14_Divinicorp.png",
+      "tiers": [
+        {
+          "units": 1,
+          "value": "10% bonus",
+          "icon": "TFT14_Divinicorp_bronze.png"
+        },
+        {
+          "units": 2,
+          "value": "110% bonus",
+          "icon": "TFT14_Divinicorp_silver.png"
+        },
+        {
+          "units": 3,
+          "value": "125% bonus",
+          "icon": "TFT14_Divinicorp_silver.png"
+        },
+        {
+          "units": 4,
+          "value": "140% bonus",
+          "icon": "TFT14_Divinicorp_silver.png"
+        },
+        {
+          "units": 5,
+          "value": "160% bonus",
+          "icon": "TFT14_Divinicorp_gold.png"
+        },
+        {
+          "units": 6,
+          "value": "180% bonus",
+          "icon": "TFT14_Divinicorp_gold.png"
+        },
+        {
+          "units": 7,
+          "value": "200% bonus",
+          "icon": "TFT14_Divinicorp_gold.png"
+        }
+      ]
+    }
+  },
+  "classes": {
+    "TFT14_Bruiser": {
+      "name": "Bruiser",
+      "description": "Bruisers gain bonus health.",
+      "icon": "TFT14_Bruiser.png",
+      "tiers": [
+        {
+          "units": 1,
+          "value": "+100 Health",
+          "icon": "TFT14_Bruiser_bronze.png"
+        },
+        {
+          "units": 2,
+          "value": "+200 Health",
+          "icon": "TFT14_Bruiser_silver.png"
+        },
+        {
+          "units": 3,
+          "value": "+300 Health",
+          "icon": "TFT14_Bruiser_gold.png"
+        }
+      ]
+    }
+  }
+}
+{
+  "items": {
+    "TFT14_Item_Nitro_ChromeCounter": {
+      "name": "Chrome Counter",
+      "category": "Special",
+      "icon": "TFT14_Item_Nitro_ChromeCounter.png",
+      "description": "Tracks Chrome for the Nitro trait. Every round, Nitro champions grant Chrome to R-080T based on their star level. At 200 Chrome, it upgrades to T-43X.",
+      "stats": []
+    }
+  }
+}

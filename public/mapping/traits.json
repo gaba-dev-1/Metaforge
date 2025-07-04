@@ -1,0 +1,561 @@
+{
+  "origins": {
+    "TFT14_Divinicorp": {
+      "name": "Divinicorp",
+      "description": "Divinicorp champions grant unique stats to your team, increased for each Divinicorp in play.",
+      "icon": "TFT14_Divinicorp.png",
+      "tiers": [
+        {
+          "units": 1,
+          "value": "10% bonus",
+          "icon": "TFT14_Divinicorp_bronze.png"
+        },
+        {
+          "units": 2,
+          "value": "110% bonus",
+          "icon": "TFT14_Divinicorp_silver.png"
+        },
+        {
+          "units": 3,
+          "value": "125% bonus",
+          "icon": "TFT14_Divinicorp_silver.png"
+        },
+        {
+          "units": 4,
+          "value": "140% bonus",
+          "icon": "TFT14_Divinicorp_silver.png"
+        },
+        {
+          "units": 5,
+          "value": "160% bonus",
+          "icon": "TFT14_Divinicorp_gold.png"
+        },
+        {
+          "units": 6,
+          "value": "180% bonus",
+          "icon": "TFT14_Divinicorp_gold.png"
+        },
+        {
+          "units": 7,
+          "value": "200% bonus",
+          "icon": "TFT14_Divinicorp_gold.png"
+        }
+      ]
+    },
+    "TFT14_StreetDemon": {
+      "name": "Street Demon",
+      "description": "Allies in painted hexes gain Health, Ability Power, and Attack Damage.",
+      "icon": "TFT14_StreetDemon.png",
+      "tiers": [
+        {
+          "units": 3,
+          "value": "+6% Health, 6 AP, 6% AD",
+          "icon": "TFT14_StreetDemon_bronze.png"
+        },
+        {
+          "units": 5,
+          "value": "+10% Health, 10 AP, 10% AD",
+          "icon": "TFT14_StreetDemon_silver.png"
+        },
+        {
+          "units": 7,
+          "value": "+15% Health, 15 AP, 15% AD",
+          "icon": "TFT14_StreetDemon_gold.png"
+        },
+        {
+          "units": 10,
+          "value": "+50% Health, 50 AP, 50% AD",
+          "icon": "TFT14_StreetDemon_diamond.png"
+        }
+      ]
+    },
+    "TFT14_AnimaSquad": {
+      "name": "Anima Squad",
+      "description": "Pick weapons for Anima Squad champions to fire periodically during combat.",
+      "icon": "TFT14_AnimaSquad.png",
+      "tiers": [
+        {
+          "units": 3,
+          "value": "10 Armor & MR, 5% Damage Amp",
+          "icon": "TFT14_AnimaSquad_bronze.png"
+        },
+        {
+          "units": 5,
+          "value": "30 Armor & MR, 12% Damage Amp",
+          "icon": "TFT14_AnimaSquad_silver.png"
+        },
+        {
+          "units": 7,
+          "value": "45 Armor & MR, 20% Damage Amp",
+          "icon": "TFT14_AnimaSquad_gold.png"
+        },
+        {
+          "units": 10,
+          "value": "75 Armor & MR, 25% Damage Amp",
+          "icon": "TFT14_AnimaSquad_diamond.png"
+        }
+      ]
+    },
+    "TFT14_ViegoUniqueTrait": {
+      "name": "Soul Killer",
+      "description": "Gain a hologram copy of the highest cost enemy Viego helped kill last round.",
+      "icon": "TFT14_ViegoUniqueTrait.png",
+      "tiers": [
+        {
+          "units": 1,
+          "value": "Active",
+          "icon": "TFT14_ViegoUniqueTrait_bronze.png"
+        }
+      ]
+    },
+    "TFT14_Cyberboss": {
+      "name": "Cyberboss",
+      "description": "Your strongest Cyberboss upgrades to its final form with enhanced stats.",
+      "icon": "TFT14_Cyberboss.png",
+      "tiers": [
+        {
+          "units": 2,
+          "value": "25% Health, 20 AP",
+          "icon": "TFT14_Cyberboss_bronze.png"
+        },
+        {
+          "units": 3,
+          "value": "33% Health, 30 AP",
+          "icon": "TFT14_Cyberboss_silver.png"
+        },
+        {
+          "units": 4,
+          "value": "All Cyberbosses upgrade. Strongest gains 40% Health, 40 AP.",
+          "icon": "TFT14_Cyberboss_gold.png"
+        }
+      ]
+    },
+    "TFT14_EdgeRunner": {
+      "name": "Exotech",
+      "description": "Gain unique items that can only be equipped by Exotech champions.",
+      "icon": "TFT14_EdgeRunner.png",
+      "tiers": [
+        {
+          "units": 3,
+          "value": "50 Health, 2% AS per item equipped",
+          "icon": "TFT14_EdgeRunner_bronze.png"
+        },
+        {
+          "units": 5,
+          "value": "150 Health, 5% AS per item equipped",
+          "icon": "TFT14_EdgeRunner_silver.png"
+        },
+        {
+          "units": 7,
+          "value": "225 Health, 9% AS per item equipped",
+          "icon": "TFT14_EdgeRunner_gold.png"
+        },
+        {
+          "units": 10,
+          "value": "500 Health, 40% AS per item equipped",
+          "icon": "TFT14_EdgeRunner_diamond.png"
+        }
+      ]
+    },
+    "TFT14_Overlord": {
+      "name": "Overlord",
+      "description": "The Overlord takes a bite out of the unit behind him, gaining their stats.",
+      "icon": "TFT14_Overlord.png",
+      "tiers": [
+        {
+          "units": 1,
+          "value": "Active",
+          "icon": "TFT14_Overlord_bronze.png"
+        }
+      ]
+    },
+    "TFT14_Netgod": {
+      "name": "God of the Net",
+      "description": "Open an Armory of Trait Mods that permanently reprogram a champion to benefit from a trait.",
+      "icon": "TFT14_Netgod.png",
+      "tiers": [
+        {
+          "units": 1,
+          "value": "Active",
+          "icon": "TFT14_Netgod_bronze.png"
+        }
+      ]
+    },
+    "TFT14_Immortal": {
+      "name": "Golden Ox",
+      "description": "Golden Ox gain Damage Amp and drop gold on kill.",
+      "icon": "TFT14_Immortal.png",
+      "tiers": [
+        {
+          "units": 2,
+          "value": "13% Damage Amp, 20% gold",
+          "icon": "TFT14_Immortal_bronze.png"
+        },
+        {
+          "units": 4,
+          "value": "20% Damage Amp, 50% gold",
+          "icon": "TFT14_Immortal_silver.png"
+        },
+        {
+          "units": 6,
+          "value": "25% Damage Amp, 75% loot, 7% chance for component",
+          "icon": "TFT14_Immortal_gold.png"
+        }
+      ]
+    },
+    "TFT14_BallisTek": {
+      "name": "BoomBot",
+      "description": "BoomBots fire missiles based on damage dealt and taken.",
+      "icon": "TFT14_BallisTek.png",
+      "tiers": [
+        {
+          "units": 2,
+          "value": "150 magic damage",
+          "icon": "TFT14_BallisTek_bronze.png"
+        },
+        {
+          "units": 4,
+          "value": "325 magic damage",
+          "icon": "TFT14_BallisTek_silver.png"
+        },
+        {
+          "units": 6,
+          "value": "Two missiles, each dealing 225 magic damage",
+          "icon": "TFT14_BallisTek_gold.png"
+        }
+      ]
+    },
+    "TFT14_Virus": {
+      "name": "Virus",
+      "description": "The Virus infects your shop with bloblets that enhance Zac when purchased.",
+      "icon": "TFT14_Virus.png",
+      "tiers": [
+        {
+          "units": 1,
+          "value": "Active",
+          "icon": "TFT14_Virus_bronze.png"
+        }
+      ]
+    },
+    "TFT14_Mob": {
+      "name": "Syndicate",
+      "description": "Get a Kingpin hat that uniquely upgrades a Syndicate champion's ability.",
+      "icon": "TFT14_Mob.png",
+      "tiers": [
+        {
+          "units": 3,
+          "value": "100 Health, 5% Damage Amp, 1 Kingpin",
+          "icon": "TFT14_Mob_bronze.png"
+        },
+        {
+          "units": 5,
+          "value": "400 Health, 15% Damage Amp, 2 Kingpins",
+          "icon": "TFT14_Mob_silver.png"
+        },
+        {
+          "units": 7,
+          "value": "500 Health, 20% Damage Amp, Upgrade Kingpin effect",
+          "icon": "TFT14_Mob_gold.png"
+        }
+      ]
+    },
+    "TFT14_HotRod": {
+      "name": "Nitro",
+      "description": "Summon a robot that powers up with Chrome from Nitro champions.",
+      "icon": "TFT14_HotRod.png",
+      "tiers": [
+        {
+          "units": 3,
+          "value": "Summon R-080T!",
+          "icon": "TFT14_HotRod_bronze.png"
+        },
+        {
+          "units": 4,
+          "value": "Fire a giant laser!",
+          "icon": "TFT14_HotRod_silver.png"
+        }
+      ]
+    },
+    "TFT14_Suits": {
+      "name": "Cypher",
+      "description": "Gain Intel by losing combat and trade it for loot at specific rounds.",
+      "icon": "TFT14_Suits.png",
+      "tiers": [
+        {
+          "units": 3,
+          "value": "1.0x Intel, 30% AD & AP",
+          "icon": "TFT14_Suits_bronze.png"
+        },
+        {
+          "units": 4,
+          "value": "1.5x Intel, 45% AD & AP",
+          "icon": "TFT14_Suits_silver.png"
+        },
+        {
+          "units": 5,
+          "value": "2.0x Intel, 55% AD & AP",
+          "icon": "TFT14_Suits_gold.png"
+        }
+      ]
+    }
+  },
+  "classes": {
+    "TFT14_Supercharge": {
+      "name": "A.M.P.",
+      "description": "A.M.P. champions upgrade their abilities with Amp and gain Health.",
+      "icon": "TFT14_Supercharge.png",
+      "tiers": [
+        {
+          "units": 2,
+          "value": "1 Amp, 100 Health",
+          "icon": "TFT14_Supercharge_bronze.png"
+        },
+        {
+          "units": 3,
+          "value": "2 Amp, 200 Health",
+          "icon": "TFT14_Supercharge_silver.png"
+        },
+        {
+          "units": 4,
+          "value": "3 Amp, 350 Health",
+          "icon": "TFT14_Supercharge_gold.png"
+        },
+        {
+          "units": 5,
+          "value": "4 Amp, 500 Health",
+          "icon": "TFT14_Supercharge_diamond.png"
+        }
+      ]
+    },
+    "TFT14_Vanguard": {
+      "name": "Vanguard",
+      "description": "Vanguards gain Durability while Shielded and shield themselves at combat start.",
+      "icon": "TFT14_Vanguard.png",
+      "tiers": [
+        {
+          "units": 2,
+          "value": "16% max Health shield",
+          "icon": "TFT14_Vanguard_bronze.png"
+        },
+        {
+          "units": 4,
+          "value": "32% max Health shield",
+          "icon": "TFT14_Vanguard_silver.png"
+        },
+        {
+          "units": 6,
+          "value": "40% max Health shield; 10% Durability while Shielded",
+          "icon": "TFT14_Vanguard_gold.png"
+        }
+      ]
+    },
+    "TFT14_Strong": {
+      "name": "Slayer",
+      "description": "Slayers gain Attack Damage, Omnivamp, and heal other Slayers with overhealing.",
+      "icon": "TFT14_Strong.png",
+      "tiers": [
+        {
+          "units": 2,
+          "value": "15% AD, 15% Omnivamp",
+          "icon": "TFT14_Strong_bronze.png"
+        },
+        {
+          "units": 4,
+          "value": "40% AD, 15% Omnivamp",
+          "icon": "TFT14_Strong_silver.png"
+        },
+        {
+          "units": 6,
+          "value": "70% AD, 20% Omnivamp",
+          "icon": "TFT14_Strong_gold.png"
+        }
+      ]
+    },
+    "TFT14_Cutter": {
+      "name": "Executioner",
+      "description": "Executioner Abilities can critically strike and gain bonus Critical Strike stats.",
+      "icon": "TFT14_Cutter.png",
+      "tiers": [
+        {
+          "units": 2,
+          "value": "25% Crit Chance, 5% Crit Damage",
+          "icon": "TFT14_Cutter_bronze.png"
+        },
+        {
+          "units": 3,
+          "value": "35% Crit Chance, 10% Crit Damage",
+          "icon": "TFT14_Cutter_silver.png"
+        },
+        {
+          "units": 4,
+          "value": "45% Crit Chance, 15% Crit Damage",
+          "icon": "TFT14_Cutter_gold.png"
+        },
+        {
+          "units": 5,
+          "value": "50% Crit Chance, 15% Crit Damage; 12% Durability",
+          "icon": "TFT14_Cutter_diamond.png"
+        }
+      ]
+    },
+    "TFT14_Armorclad": {
+      "name": "Bastion",
+      "description": "Your team gains Armor and Magic Resist. Bastions gain more.",
+      "icon": "TFT14_Armorclad.png",
+      "tiers": [
+        {
+          "units": 2,
+          "value": "18 Armor & MR",
+          "icon": "TFT14_Armorclad_bronze.png"
+        },
+        {
+          "units": 4,
+          "value": "40 Armor & MR",
+          "icon": "TFT14_Armorclad_silver.png"
+        },
+        {
+          "units": 6,
+          "value": "70 Armor & MR; Non-Bastions gain an additional 10 Armor & MR.",
+          "icon": "TFT14_Armorclad_gold.png"
+        }
+      ]
+    },
+    "TFT14_Swift": {
+      "name": "Rapidfire",
+      "description": "Your team gains Attack Speed. Rapidfire champions gain more on each attack.",
+      "icon": "TFT14_Swift.png",
+      "tiers": [
+        {
+          "units": 2,
+          "value": "4% AS per stack (10% Team AS)",
+          "icon": "TFT14_Swift_bronze.png"
+        },
+        {
+          "units": 4,
+          "value": "10% AS per stack (10% Team AS)",
+          "icon": "TFT14_Swift_silver.png"
+        },
+        {
+          "units": 6,
+          "value": "24% AS per stack (10% Team AS)",
+          "icon": "TFT14_Swift_gold.png"
+        }
+      ]
+    },
+    "TFT14_Controller": {
+      "name": "Strategist",
+      "description": "Front row allies gain Durability, back row allies gain Damage Amp.",
+      "icon": "TFT14_Controller.png",
+      "tiers": [
+        {
+          "units": 2,
+          "value": "6% Damage Amp, 4% Durability",
+          "icon": "TFT14_Controller_bronze.png"
+        },
+        {
+          "units": 3,
+          "value": "9% Damage Amp, 6% Durability",
+          "icon": "TFT14_Controller_silver.png"
+        },
+        {
+          "units": 4,
+          "value": "12% Damage Amp, 8% Durability",
+          "icon": "TFT14_Controller_gold.png"
+        },
+        {
+          "units": 5,
+          "value": "15% Damage Amp, 10% Durability",
+          "icon": "TFT14_Controller_diamond.png"
+        }
+      ]
+    },
+    "TFT14_Bruiser": {
+      "name": "Bruiser",
+      "description": "Your team gains Health. Bruisers gain more.",
+      "icon": "TFT14_Bruiser.png",
+      "tiers": [
+        {
+          "units": 2,
+          "value": "20% Bonus Health (100 Team Health)",
+          "icon": "TFT14_Bruiser_bronze.png"
+        },
+        {
+          "units": 4,
+          "value": "45% Bonus Health (100 Team Health)",
+          "icon": "TFT14_Bruiser_silver.png"
+        },
+        {
+          "units": 6,
+          "value": "70% Bonus Health (100 Team Health)",
+          "icon": "TFT14_Bruiser_gold.png"
+        }
+      ]
+    },
+    "TFT14_Marksman": {
+      "name": "Marksman",
+      "description": "Marksmen gain Attack Damage with enhanced bonuses later in combat.",
+      "icon": "TFT14_Marksman.png",
+      "tiers": [
+        {
+          "units": 2,
+          "value": "18% AD",
+          "icon": "TFT14_Marksman_bronze.png"
+        },
+        {
+          "units": 4,
+          "value": "35% AD. After 8 seconds, gain 20% AD every 6 seconds.",
+          "icon": "TFT14_Marksman_silver.png"
+        }
+      ]
+    },
+    "TFT14_Techie": {
+      "name": "Techie",
+      "description": "Techies gain Ability Power and debuff enemies hit by abilities.",
+      "icon": "TFT14_Techie.png",
+      "tiers": [
+        {
+          "units": 2,
+          "value": "20 AP",
+          "icon": "TFT14_Techie_bronze.png"
+        },
+        {
+          "units": 4,
+          "value": "50 AP",
+          "icon": "TFT14_Techie_silver.png"
+        },
+        {
+          "units": 6,
+          "value": "85 AP",
+          "icon": "TFT14_Techie_gold.png"
+        },
+        {
+          "units": 8,
+          "value": "125 AP. Enemies hit deal 18% less damage.",
+          "icon": "TFT14_Techie_diamond.png"
+        }
+      ]
+    },
+    "TFT14_Thirsty": {
+      "name": "Dynamo",
+      "description": "Your team gains Mana periodically. Dynamos gain more.",
+      "icon": "TFT14_Thirsty.png",
+      "tiers": [
+        {
+          "units": 2,
+          "value": "5 Mana every 3 seconds",
+          "icon": "TFT14_Thirsty_bronze.png"
+        },
+        {
+          "units": 3,
+          "value": "7 Mana every 3 seconds",
+          "icon": "TFT14_Thirsty_silver.png"
+        },
+        {
+          "units": 4,
+          "value": "10 Mana every 3 seconds",
+          "icon": "TFT14_Thirsty_gold.png"
+        }
+      ]
+    }
+  }
+}

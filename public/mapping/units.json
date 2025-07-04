@@ -1,0 +1,1564 @@
+{
+  "units": {
+    "TFT14_Alistar": {
+      "name": "Alistar",
+      "icon": "TFT14_Alistar.png",
+      "cost": 1,
+      "traits": {
+        "origin": ["TFT14_Immortal"],
+        "class": ["TFT14_Bruiser"]
+      },
+      "ability": {
+        "name": "Gilded Endurance",
+        "description": "Passive: Reduce all incoming damage. Active: Deal magic damage to the current target and Stun them.",
+        "type": "Active"
+      },
+      "stats": {
+        "health": 650,
+        "armor": 40,
+        "magic_resist": 40,
+        "damage": 50,
+        "attack_speed": 0.55,
+        "dps": 28,
+        "start_mana": 30,
+        "max_mana": 100,
+        "crit_rate": 25,
+        "range": 1
+      }
+    },
+    "TFT14_Annie": {
+      "name": "Annie",
+      "icon": "TFT14_Annie.png",
+      "cost": 4,
+      "traits": {
+        "origin": ["TFT14_Immortal"],
+        "class": ["TFT14_Supercharge"]
+      },
+      "ability": {
+        "name": "Goldilocks",
+        "description": "Throw fireballs at enemies and summon Tibbers every few casts.",
+        "type": "Active"
+      },
+      "stats": {
+        "health": 850,
+        "armor": 30,
+        "magic_resist": 30,
+        "damage": 30,
+        "attack_speed": 0.75,
+        "dps": 23,
+        "start_mana": 0,
+        "max_mana": 40,
+        "crit_rate": 25,
+        "range": 4
+      }
+    },
+    "TFT14_Aphelios": {
+      "name": "Aphelios",
+      "icon": "TFT14_Aphelios.png",
+      "cost": 4,
+      "traits": {
+        "origin": ["TFT14_Immortal"],
+        "class": ["TFT14_Marksman"]
+      },
+      "ability": {
+        "name": "Moonlight Vigil",
+        "description": "Fire a moon blast at enemies and equip Chakrams that enhance basic attacks.",
+        "type": "Active"
+      },
+      "stats": {
+        "health": 800,
+        "armor": 30,
+        "magic_resist": 30,
+        "damage": 63,
+        "attack_speed": 0.75,
+        "dps": 47,
+        "start_mana": 20,
+        "max_mana": 80,
+        "crit_rate": 25,
+        "range": 4
+      }
+    },
+    "TFT14_Aurora": {
+      "name": "Aurora",
+      "icon": "TFT14_Aurora.png",
+      "cost": 5,
+      "traits": {
+        "origin": ["TFT14_AnimaSquad"],
+        "class": ["TFT14_Thirsty"]
+      },
+      "ability": {
+        "name": "Pierce the Veil",
+        "description": "Swap places with a benched champion and teleport to hit enemies in a line.",
+        "type": "Active"
+      },
+      "stats": {
+        "health": 800,
+        "armor": 40,
+        "magic_resist": 40,
+        "damage": 50,
+        "attack_speed": 0.8,
+        "dps": 40,
+        "start_mana": 30,
+        "max_mana": 90,
+        "crit_rate": 25,
+        "range": 4
+      }
+    },
+    "TFT14_Brand": {
+      "name": "Brand",
+      "icon": "TFT14_Brand.png",
+      "cost": 4,
+      "traits": {
+        "origin": ["TFT14_StreetDemon"],
+        "class": ["TFT14_Techie"]
+      },
+      "ability": {
+        "name": "Paint Bomb",
+        "description": "Throw a paint bomb at enemies, dealing magic damage.",
+        "type": "Active"
+      },
+      "stats": {
+        "health": 800,
+        "armor": 30,
+        "magic_resist": 30,
+        "damage": 35,
+        "attack_speed": 0.75,
+        "dps": 26,
+        "start_mana": 20,
+        "max_mana": 80,
+        "crit_rate": 25,
+        "range": 4
+      }
+    },
+    "TFT14_Braum": {
+      "name": "Braum",
+      "icon": "TFT14_Braum.png",
+      "cost": 3,
+      "traits": {
+        "origin": ["TFT14_Mob"],
+        "class": ["TFT14_Vanguard"]
+      },
+      "ability": {
+        "name": "Protection Racket",
+        "description": "Gain a shield and deal damage to nearby enemies when it ends.",
+        "type": "Active"
+      },
+      "stats": {
+        "health": 850,
+        "armor": 50,
+        "magic_resist": 50,
+        "damage": 60,
+        "attack_speed": 0.6,
+        "dps": 36,
+        "start_mana": 30,
+        "max_mana": 80,
+        "crit_rate": 25,
+        "range": 1
+      }
+    },
+    "TFT14_Chogath": {
+      "name": "Cho'Gath",
+      "icon": "TFT14_Chogath.png",
+      "cost": 4,
+      "traits": {
+        "origin": ["TFT14_BallisTek"],
+        "class": ["TFT14_Bruiser"]
+      },
+      "ability": {
+        "name": "Sonic Scream",
+        "description": "Fire a sound blast dealing damage and gain permanent max Health.",
+        "type": "Active"
+      },
+      "stats": {
+        "health": 1000,
+        "armor": 50,
+        "magic_resist": 50,
+        "damage": 65,
+        "attack_speed": 0.6,
+        "dps": 39,
+        "start_mana": 40,
+        "max_mana": 100,
+        "crit_rate": 25,
+        "range": 1
+      }
+    },
+    "TFT14_Darius": {
+      "name": "Darius",
+      "icon": "TFT14_Darius.png",
+      "cost": 2,
+      "traits": {
+        "origin": ["TFT14_Mob"],
+        "class": ["TFT14_Bruiser"]
+      },
+      "ability": {
+        "name": "Kneecapper",
+        "description": "Heal health, then deal physical damage and Sunder enemies within range.",
+        "type": "Active"
+      },
+      "stats": {
+        "health": 750,
+        "armor": 45,
+        "magic_resist": 45,
+        "damage": 65,
+        "attack_speed": 0.65,
+        "dps": 42,
+        "start_mana": 30,
+        "max_mana": 80,
+        "crit_rate": 25,
+        "range": 1
+      }
+    },
+    "TFT14_DrMundo": {
+      "name": "Dr. Mundo",
+      "icon": "TFT14_DrMundo.png",
+      "cost": 1,
+      "traits": {
+        "origin": ["TFT14_StreetDemon"],
+        "class": ["TFT14_Bruiser", "TFT14_Strong"]
+      },
+      "ability": {
+        "name": "Flex On 'Em",
+        "description": "Passive: Gain bonus Health. Active: Heal and deal damage to target.",
+        "type": "Active"
+      },
+      "stats": {
+        "health": 650,
+        "armor": 35,
+        "magic_resist": 35,
+        "damage": 50,
+        "attack_speed": 0.6,
+        "dps": 30,
+        "start_mana": 0,
+        "max_mana": 50,
+        "crit_rate": 25,
+        "range": 1
+      }
+    },
+    "TFT14_Draven": {
+      "name": "Draven",
+      "icon": "TFT14_Draven.png",
+      "cost": 3,
+      "traits": {
+        "origin": ["TFT14_Suits"],
+        "class": ["TFT14_Swift"]
+      },
+      "ability": {
+        "name": "Cache Hack",
+        "description": "Throw two massive axes dealing physical damage in a line.",
+        "type": "Active"
+      },
+      "stats": {
+        "health": 700,
+        "armor": 25,
+        "magic_resist": 25,
+        "damage": 52,
+        "attack_speed": 0.75,
+        "dps": 39,
+        "start_mana": 0,
+        "max_mana": 40,
+        "crit_rate": 25,
+        "range": 4
+      }
+    },
+    "TFT14_Ekko": {
+      "name": "Ekko",
+      "icon": "TFT14_Ekko.png",
+      "cost": 2,
+      "traits": {
+        "origin": ["TFT14_StreetDemon"],
+        "class": ["TFT14_Controller"]
+      },
+      "ability": {
+        "name": "Paintover",
+        "description": "Heal and deal magic damage to the current target.",
+        "type": "Active"
+      },
+      "stats": {
+        "health": 800,
+        "armor": 45,
+        "magic_resist": 45,
+        "damage": 45,
+        "attack_speed": 0.7,
+        "dps": 31,
+        "start_mana": 20,
+        "max_mana": 60,
+        "crit_rate": 25,
+        "range": 1
+      }
+    },
+    "TFT14_Elise": {
+      "name": "Elise",
+      "icon": "TFT14_Elise.png",
+      "cost": 3,
+      "traits": {
+        "origin": ["TFT14_HotRod"],
+        "class": ["TFT14_Thirsty"]
+      },
+      "ability": {
+        "name": "Fire on all Cylinders",
+        "description": "Fire lasers at enemies, dealing magic damage and reducing Magic Resist.",
+        "type": "Active"
+      },
+      "stats": {
+        "health": 700,
+        "armor": 25,
+        "magic_resist": 25,
+        "damage": 40,
+        "attack_speed": 0.75,
+        "dps": 30,
+        "start_mana": 20,
+        "max_mana": 70,
+        "crit_rate": 25,
+        "range": 4
+      }
+    },
+    "TFT14_Fiddlesticks": {
+      "name": "Fiddlesticks",
+      "icon": "TFT14_Fiddlesticks.png",
+      "cost": 3,
+      "traits": {
+        "origin": ["TFT14_BallisTek"],
+        "class": ["TFT14_Techie"]
+      },
+      "ability": {
+        "name": "3RR0R",
+        "description": "Tether to enemies, dealing damage, applying Shred, and healing Fiddlesticks.",
+        "type": "Active"
+      },
+      "stats": {
+        "health": 800,
+        "armor": 50,
+        "magic_resist": 50,
+        "damage": 40,
+        "attack_speed": 0.7,
+        "dps": 28,
+        "start_mana": 30,
+        "max_mana": 80,
+        "crit_rate": 25,
+        "range": 2
+      }
+    },
+    "TFT14_Galio": {
+      "name": "Galio",
+      "icon": "TFT14_Galio.png",
+      "cost": 3,
+      "traits": {
+        "origin": ["TFT14_Suits"],
+        "class": ["TFT14_Armorclad"]
+      },
+      "ability": {
+        "name": "Stonewall",
+        "description": "Gain Durability, then heal and send a whirlwind at an enemy.",
+        "type": "Active"
+      },
+      "stats": {
+        "health": 900,
+        "armor": 50,
+        "magic_resist": 50,
+        "damage": 60,
+        "attack_speed": 0.6,
+        "dps": 36,
+        "start_mana": 30,
+        "max_mana": 80,
+        "crit_rate": 25,
+        "range": 1
+      }
+    },
+    "TFT14_Garen": {
+      "name": "Garen",
+      "icon": "TFT14_Garen.png",
+      "cost": 5,
+      "traits": {
+        "origin": ["TFT14_Netgod"],
+        "class": []
+      },
+      "ability": {
+        "name": "Banwave",
+        "description": "Gain Shield, deal damage, and send a wave through enemies.",
+        "type": "Active"
+      },
+      "stats": {
+        "health": 1100,
+        "armor": 60,
+        "magic_resist": 60,
+        "damage": 80,
+        "attack_speed": 0.85,
+        "dps": 68,
+        "start_mana": 40,
+        "max_mana": 100,
+        "crit_rate": 25,
+        "range": 1
+      }
+    },
+    "TFT14_Gragas": {
+      "name": "Gragas",
+      "icon": "TFT14_Gragas.png",
+      "cost": 3,
+      "traits": {
+        "origin": ["TFT14_Divinicorp"],
+        "class": ["TFT14_Bruiser"]
+      },
+      "ability": {
+        "name": "Corporate Mixer",
+        "description": "Heal health and throw a cask dealing magic damage to enemies.",
+        "type": "Active"
+      },
+      "stats": {
+        "health": 850,
+        "armor": 50,
+        "magic_resist": 50,
+        "damage": 50,
+        "attack_speed": 0.6,
+        "dps": 30,
+        "start_mana": 30,
+        "max_mana": 80,
+        "crit_rate": 25,
+        "range": 1
+      }
+    },
+    "TFT14_Graves": {
+      "name": "Graves",
+      "icon": "TFT14_Graves.png",
+      "cost": 2,
+      "traits": {
+        "origin": ["TFT14_Immortal"],
+        "class": ["TFT14_Cutter"]
+      },
+      "ability": {
+        "name": "Buckshot of Midas",
+        "description": "Passive: Attack in a cone. Active: Dash and fire empowered shells.",
+        "type": "Passive"
+      },
+      "stats": {
+        "health": 800,
+        "armor": 55,
+        "magic_resist": 55,
+        "damage": 58,
+        "attack_speed": 0.6,
+        "dps": 35,
+        "start_mana": 0,
+        "max_mana": 40,
+        "crit_rate": 25,
+        "range": 2
+      }
+    },
+    "TFT14_Illaoi": {
+      "name": "Illaoi",
+      "icon": "TFT14_Illaoi.png",
+      "cost": 2,
+      "traits": {
+        "origin": ["TFT14_AnimaSquad"],
+        "class": ["TFT14_Armorclad"]
+      },
+      "ability": {
+        "name": "Bionic Battle Bear",
+        "description": "Heal and deal magic damage to enemies, reducing their Magic Resist.",
+        "type": "Active"
+      },
+      "stats": {
+        "health": 800,
+        "armor": 45,
+        "magic_resist": 45,
+        "damage": 60,
+        "attack_speed": 0.6,
+        "dps": 36,
+        "start_mana": 30,
+        "max_mana": 80,
+        "crit_rate": 25,
+        "range": 1
+      }
+    },
+    "TFT14_Jarvan": {
+      "name": "Jarvan IV",
+      "icon": "TFT14_Jarvan.png",
+      "cost": 3,
+      "traits": {
+        "origin": ["TFT14_Immortal"],
+        "class": ["TFT14_Vanguard", "TFT14_Strong"]
+      },
+      "ability": {
+        "name": "Half-Moon Sweep",
+        "description": "Gain a shield and strike enemies, reducing their Armor.",
+        "type": "Active"
+      },
+      "stats": {
+        "health": 850,
+        "armor": 50,
+        "magic_resist": 50,
+        "damage": 50,
+        "attack_speed": 0.65,
+        "dps": 33,
+        "start_mana": 30,
+        "max_mana": 80,
+        "crit_rate": 25,
+        "range": 1
+      }
+    },
+    "TFT14_Jax": {
+      "name": "Jax",
+      "icon": "TFT14_Jax.png",
+      "cost": 1,
+      "traits": {
+        "origin": ["TFT14_EdgeRunner"],
+        "class": ["TFT14_Armorclad"]
+      },
+      "ability": {
+        "name": "Ion Barrier",
+        "description": "Gain a shield and deal magic damage to adjacent enemies.",
+        "type": "Active"
+      },
+      "stats": {
+        "health": 650,
+        "armor": 40,
+        "magic_resist": 40,
+        "damage": 55,
+        "attack_speed": 0.6,
+        "dps": 33,
+        "start_mana": 30,
+        "max_mana": 80,
+        "crit_rate": 25,
+        "range": 1
+      }
+    },
+    "TFT14_Jhin": {
+      "name": "Jhin",
+      "icon": "TFT14_Jhin.png",
+      "cost": 2,
+      "traits": {
+        "origin": ["TFT14_EdgeRunner"],
+        "class": ["TFT14_Marksman", "TFT14_Thirsty"]
+      },
+      "ability": {
+        "name": "Logic Bomb",
+        "description": "Fire a bouncing grenade that damages and Sunders enemies.",
+        "type": "Active"
+      },
+      "stats": {
+        "health": 550,
+        "armor": 20,
+        "magic_resist": 20,
+        "damage": 44,
+        "attack_speed": 0.74,
+        "dps": 33,
+        "start_mana": 0,
+        "max_mana": 40,
+        "crit_rate": 25,
+        "range": 4
+      }
+    },
+    "TFT14_Jinx": {
+      "name": "Jinx",
+      "icon": "TFT14_Jinx.png",
+      "cost": 3,
+      "traits": {
+        "origin": ["TFT14_StreetDemon"],
+        "class": ["TFT14_Marksman"]
+      },
+      "ability": {
+        "name": "Rampant Vandalism",
+        "description": "Fire rockets at random enemies, with each cast adding more rockets.",
+        "type": "Active"
+      },
+      "stats": {
+        "health": 650,
+        "armor": 25,
+        "magic_resist": 25,
+        "damage": 55,
+        "attack_speed": 0.7,
+        "dps": 39,
+        "start_mana": 20,
+        "max_mana": 70,
+        "crit_rate": 25,
+        "range": 4
+      }
+    },
+    "TFT14_Kindred": {
+      "name": "Kindred",
+      "icon": "TFT14_Kindred.png",
+      "cost": 1,
+      "traits": {
+        "origin": ["TFT14_HotRod"],
+        "class": ["TFT14_Swift", "TFT14_Marksman"]
+      },
+      "ability": {
+        "name": "Rev Up",
+        "description": "Fire a wolf at the target with overkill damage bouncing to another enemy.",
+        "type": "Active"
+      },
+      "stats": {
+        "health": 500,
+        "armor": 15,
+        "magic_resist": 15,
+        "damage": 45,
+        "attack_speed": 0.7,
+        "dps": 31,
+        "start_mana": 0,
+        "max_mana": 40,
+        "crit_rate": 25,
+        "range": 4
+      }
+    },
+    "TFT14_Kobuko": {
+      "name": "Kobuko",
+      "icon": "TFT14_Kobuko.png",
+      "cost": 5,
+      "traits": {
+        "origin": ["TFT14_Cyberboss"],
+        "class": ["TFT14_Bruiser"]
+      },
+      "ability": {
+        "name": "Game Over!",
+        "description": "Passive: Gain bonuses at low health. Active: Pick up and slam enemies.",
+        "type": "Active"
+      },
+      "stats": {
+        "health": 1000,
+        "armor": 60,
+        "magic_resist": 60,
+        "damage": 20,
+        "attack_speed": 0.8,
+        "dps": 16,
+        "start_mana": 40,
+        "max_mana": 90,
+        "crit_rate": 25,
+        "range": 1
+      }
+    },
+    "TFT14_KogMaw": {
+      "name": "Kog'Maw",
+      "icon": "TFT14_KogMaw.png",
+      "cost": 1,
+      "traits": {
+        "origin": ["TFT14_BallisTek"],
+        "class": ["TFT14_Swift"]
+      },
+      "ability": {
+        "name": "Fire at Will",
+        "description": "Gain Attack Speed and deal bonus physical damage with attacks.",
+        "type": "Active"
+      },
+      "stats": {
+        "health": 500,
+        "armor": 15,
+        "magic_resist": 15,
+        "damage": 50,
+        "attack_speed": 0.7,
+        "dps": 35,
+        "start_mana": 0,
+        "max_mana": 50,
+        "crit_rate": 25,
+        "range": 4
+      }
+    },
+    "TFT14_LeBlanc": {
+      "name": "LeBlanc",
+      "icon": "TFT14_LeBlanc.png",
+      "cost": 2,
+      "traits": {
+        "origin": ["TFT14_Suits"],
+        "class": ["TFT14_Controller"]
+      },
+      "ability": {
+        "name": "Data Spike",
+        "description": "Send sigils at enemies, dealing magic damage and adding more sigils each cast.",
+        "type": "Active"
+      },
+      "stats": {
+        "health": 550,
+        "armor": 20,
+        "magic_resist": 20,
+        "damage": 35,
+        "attack_speed": 0.75,
+        "dps": 26,
+        "start_mana": 20,
+        "max_mana": 60,
+        "crit_rate": 25,
+        "range": 4
+      }
+    },
+    "TFT14_Leona": {
+      "name": "Leona",
+      "icon": "TFT14_Leona.png",
+      "cost": 4,
+      "traits": {
+        "origin": ["TFT14_AnimaSquad"],
+        "class": ["TFT14_Vanguard"]
+      },
+      "ability": {
+        "name": "Solar Flare",
+        "description": "Gain Durability, damage enemies, and mark them to take bonus magic damage.",
+        "type": "Active"
+      },
+      "stats": {
+        "health": 1100,
+        "armor": 60,
+        "magic_resist": 60,
+        "damage": 60,
+        "attack_speed": 0.6,
+        "dps": 36,
+        "start_mana": 30,
+        "max_mana": 80,
+        "crit_rate": 25,
+        "range": 1
+      }
+    },
+    "TFT14_MissFortune": {
+      "name": "Miss Fortune",
+      "icon": "TFT14_MissFortune.png",
+      "cost": 4,
+      "traits": {
+        "origin": ["TFT14_Mob"],
+        "class": ["TFT14_Thirsty"]
+      },
+      "ability": {
+        "name": "Street Sweeper",
+        "description": "Fire waves of bullets at enemies, dealing physical damage.",
+        "type": "Active"
+      },
+      "stats": {
+        "health": 800,
+        "armor": 30,
+        "magic_resist": 30,
+        "damage": 50,
+        "attack_speed": 0.75,
+        "dps": 38,
+        "start_mana": 20,
+        "max_mana": 80,
+        "crit_rate": 25,
+        "range": 4
+      }
+    },
+    "TFT14_Mordekaiser": {
+      "name": "Mordekaiser",
+      "icon": "TFT14_Mordekaiser.png",
+      "cost": 3,
+      "traits": {
+        "origin": ["TFT14_EdgeRunner"],
+        "class": ["TFT14_Bruiser", "TFT14_Techie"]
+      },
+      "ability": {
+        "name": "Antivirus",
+        "description": "Gain a shield and slam enemies in a line, dealing damage and stunning them.",
+        "type": "Active"
+      },
+      "stats": {
+        "health": 850,
+        "armor": 50,
+        "magic_resist": 50,
+        "damage": 50,
+        "attack_speed": 0.6,
+        "dps": 30,
+        "start_mana": 30,
+        "max_mana": 80,
+        "crit_rate": 25,
+        "range": 1
+      }
+    },
+    "TFT14_Morgana": {
+      "name": "Morgana",
+      "icon": "TFT14_Morgana.png",
+      "cost": 1,
+      "traits": {
+        "origin": ["TFT14_Divinicorp"],
+        "class": ["TFT14_Thirsty"]
+      },
+      "ability": {
+        "name": "Short Circuit",
+        "description": "Deal magic damage over time to enemies.",
+        "type": "Active"
+      },
+      "stats": {
+        "health": 500,
+        "armor": 15,
+        "magic_resist": 15,
+        "damage": 30,
+        "attack_speed": 0.7,
+        "dps": 21,
+        "start_mana": 0,
+        "max_mana": 50,
+        "crit_rate": 25,
+        "range": 4
+      }
+    },
+    "TFT14_Naafiri": {
+      "name": "Naafiri",
+      "icon": "TFT14_Naafiri.png",
+      "cost": 2,
+      "traits": {
+        "origin": ["TFT14_EdgeRunner"],
+        "class": ["TFT14_Supercharge"]
+      },
+      "ability": {
+        "name": "Alpha Protocol",
+        "description": "Gain Omnivamp and summon packmates to attack your target.",
+        "type": "Active"
+      },
+      "stats": {
+        "health": 700,
+        "armor": 50,
+        "magic_resist": 50,
+        "damage": 50,
+        "attack_speed": 0.8,
+        "dps": 40,
+        "start_mana": 20,
+        "max_mana": 60,
+        "crit_rate": 25,
+        "range": 1
+      }
+    },
+    "TFT14_Neeko": {
+      "name": "Neeko",
+      "icon": "TFT14_Neeko.png",
+      "cost": 4,
+      "traits": {
+        "origin": ["TFT14_StreetDemon"],
+        "class": ["TFT14_Controller"]
+      },
+      "ability": {
+        "name": "Pop Up Mural",
+        "description": "Gain a shield and create an expanding zone that damages enemies.",
+        "type": "Active"
+      },
+      "stats": {
+        "health": 1000,
+        "armor": 60,
+        "magic_resist": 60,
+        "damage": 60,
+        "attack_speed": 0.65,
+        "dps": 39,
+        "start_mana": 40,
+        "max_mana": 90,
+        "crit_rate": 25,
+        "range": 1
+      }
+    },
+    "TFT14_NidaleeCougar": {
+      "name": "Nidalee",
+      "icon": "TFT14_NidaleeCougar.png",
+      "cost": 1,
+      "traits": {
+        "origin": ["TFT14_HotRod"],
+        "class": ["TFT14_Supercharge"]
+      },
+      "ability": {
+        "name": "Charged Claws",
+        "description": "Deal magic damage to enemies and heal when hitting targets.",
+        "type": "Active"
+      },
+      "stats": {
+        "health": 650,
+        "armor": 40,
+        "magic_resist": 40,
+        "damage": 40,
+        "attack_speed": 0.75,
+        "dps": 30,
+        "start_mana": 0,
+        "max_mana": 50,
+        "crit_rate": 25,
+        "range": 1
+      }
+    },
+    "TFT14_Poppy": {
+      "name": "Poppy",
+      "icon": "TFT14_Poppy.png",
+      "cost": 1,
+      "traits": {
+        "origin": ["TFT14_Cyberboss"],
+        "class": ["TFT14_Armorclad"]
+      },
+      "ability": {
+        "name": "Buckler Toss",
+        "description": "Throw a buckler dealing magic damage and gain a shield.",
+        "type": "Active"
+      },
+      "stats": {
+        "health": 650,
+        "armor": 40,
+        "magic_resist": 40,
+        "damage": 60,
+        "attack_speed": 0.55,
+        "dps": 33,
+        "start_mana": 0,
+        "max_mana": 60,
+        "crit_rate": 25,
+        "range": 1
+      }
+    },
+    "TFT14_Renekton": {
+      "name": "Renekton",
+      "icon": "TFT14_Renekton.png",
+      "cost": 5,
+      "traits": {
+        "origin": ["TFT14_Overlord", "TFT14_Divinicorp"],
+        "class": ["TFT14_Armorclad"]
+      },
+      "ability": {
+        "name": "Dominus",
+        "description": "Gain health and enter frenzy mode enhancing attacks.",
+        "type": "Active"
+      },
+      "stats": {
+        "health": 1000,
+        "armor": 60,
+        "magic_resist": 60,
+        "damage": 70,
+        "attack_speed": 0.91,
+        "dps": 64,
+        "start_mana": 40,
+        "max_mana": 100,
+        "crit_rate": 25,
+        "range": 1
+      }
+    },
+    "TFT14_Rengar": {
+      "name": "Rengar",
+      "icon": "TFT14_Rengar.png",
+      "cost": 3,
+      "traits": {
+        "origin": ["TFT14_StreetDemon"],
+        "class": ["TFT14_Cutter"]
+      },
+      "ability": {
+        "name": "Freestyle",
+        "description": "Heal, leap to an enemy, and strike multiple times.",
+        "type": "Active"
+      },
+      "stats": {
+        "health": 800,
+        "armor": 50,
+        "magic_resist": 50,
+        "damage": 65,
+        "attack_speed": 0.8,
+        "dps": 52,
+        "start_mana": 0,
+        "max_mana": 60,
+        "crit_rate": 25,
+        "range": 1
+      }
+    },
+    "TFT14_Rhaast": {
+      "name": "Rhaast",
+      "icon": "TFT14_Rhaast.png",
+      "cost": 2,
+      "traits": {
+        "origin": ["TFT14_Divinicorp"],
+        "class": ["TFT14_Vanguard"]
+      },
+      "ability": {
+        "name": "Reaping Slash",
+        "description": "Knock up an enemy, heal, and deal physical damage.",
+        "type": "Active"
+      },
+      "stats": {
+        "health": 700,
+        "armor": 40,
+        "magic_resist": 40,
+        "damage": 60,
+        "attack_speed": 0.75,
+        "dps": 45,
+        "start_mana": 30,
+        "max_mana": 80,
+        "crit_rate": 25,
+        "range": 1
+      }
+    },
+    "TFT14_Samira": {
+      "name": "Samira",
+      "icon": "TFT14_Samira.png",
+      "cost": 5,
+      "traits": {
+        "origin": ["TFT14_StreetDemon"],
+        "class": ["TFT14_Supercharge"]
+      },
+      "ability": {
+        "name": "Demon Trigger",
+        "description": "Dash and fire a volley of bullets, then dash back to safety.",
+        "type": "Active"
+      },
+      "stats": {
+        "health": 900,
+        "armor": 50,
+        "magic_resist": 50,
+        "damage": 60,
+        "attack_speed": 0.8,
+        "dps": 48,
+        "start_mana": 30,
+        "max_mana": 90,
+        "crit_rate": 25,
+        "range": 4
+      }
+    },
+    "TFT14_Sejuani": {
+      "name": "Sejuani",
+      "icon": "TFT14_Sejuani.png",
+      "cost": 4,
+      "traits": {
+        "origin": ["TFT14_EdgeRunner"],
+        "class": ["TFT14_Armorclad"]
+      },
+      "ability": {
+        "name": "Blue Screen",
+        "description": "Throw an EMP that explodes, dealing damage and stunning enemies.",
+        "type": "Active"
+      },
+      "stats": {
+        "health": 1000,
+        "armor": 60,
+        "magic_resist": 60,
+        "damage": 60,
+        "attack_speed": 0.6,
+        "dps": 36,
+        "start_mana": 30,
+        "max_mana": 80,
+        "crit_rate": 25,
+        "range": 1
+      }
+    },
+    "TFT14_Senna": {
+      "name": "Senna",
+      "icon": "TFT14_Senna.png",
+      "cost": 3,
+      "traits": {
+        "origin": ["TFT14_Divinicorp"],
+        "class": ["TFT14_Strong"]
+      },
+      "ability": {
+        "name": "Ion Beam",
+        "description": "Fire a beam beyond the target, damaging enemies in a line.",
+        "type": "Active"
+      },
+      "stats": {
+        "health": 700,
+        "armor": 25,
+        "magic_resist": 25,
+        "damage": 60,
+        "attack_speed": 0.6,
+        "dps": 36,
+        "start_mana": 0,
+        "max_mana": 60,
+        "crit_rate": 25,
+        "range": 4
+      }
+    },
+    "TFT14_Seraphine": {
+      "name": "Seraphine",
+      "icon": "TFT14_Seraphine.png",
+      "cost": 1,
+      "traits": {
+        "origin": ["TFT14_AnimaSquad"],
+        "class": ["TFT14_Techie"]
+      },
+      "ability": {
+        "name": "Ping()",
+        "description": "Fire a soundwave dealing magic damage, reduced for each enemy hit.",
+        "type": "Active"
+      },
+      "stats": {
+        "health": 500,
+        "armor": 15,
+        "magic_resist": 15,
+        "damage": 35,
+        "attack_speed": 0.7,
+        "dps": 25,
+        "start_mana": 0,
+        "max_mana": 50,
+        "crit_rate": 25,
+        "range": 4
+      }
+    },
+    "TFT14_Shaco": {
+      "name": "Shaco",
+      "icon": "TFT14_Shaco.png",
+      "cost": 1,
+      "traits": {
+        "origin": ["TFT14_Mob"],
+        "class": ["TFT14_Strong"]
+      },
+      "ability": {
+        "name": "Felony Fantastique",
+        "description": "Gain Attack Damage from kills and deal physical damage to targets.",
+        "type": "Active"
+      },
+      "stats": {
+        "health": 600,
+        "armor": 40,
+        "magic_resist": 40,
+        "damage": 55,
+        "attack_speed": 0.8,
+        "dps": 44,
+        "start_mana": 0,
+        "max_mana": 50,
+        "crit_rate": 25,
+        "range": 1
+      }
+    },
+    "TFT14_Shyvana": {
+      "name": "Shyvana",
+      "icon": "TFT14_Shyvana.png",
+      "cost": 2,
+      "traits": {
+        "origin": ["TFT14_HotRod"],
+        "class": ["TFT14_Armorclad", "TFT14_Techie"]
+      },
+      "ability": {
+        "name": "Burnout",
+        "description": "Heal, deal damage to adjacent enemies, and gain stats.",
+        "type": "Active"
+      },
+      "stats": {
+        "health": 700,
+        "armor": 45,
+        "magic_resist": 45,
+        "damage": 45,
+        "attack_speed": 0.6,
+        "dps": 27,
+        "start_mana": 20,
+        "max_mana": 70,
+        "crit_rate": 25,
+        "range": 1
+      }
+    },
+    "TFT14_Skarner": {
+      "name": "Skarner",
+      "icon": "TFT14_Skarner.png",
+      "cost": 2,
+      "traits": {
+        "origin": ["TFT14_BallisTek"],
+        "class": ["TFT14_Vanguard"]
+      },
+      "ability": {
+        "name": "Missile Defense",
+        "description": "Gain a shield and launch a missile dealing magic damage.",
+        "type": "Active"
+      },
+      "stats": {
+        "health": 800,
+        "armor": 50,
+        "magic_resist": 50,
+        "damage": 60,
+        "attack_speed": 0.6,
+        "dps": 36,
+        "start_mana": 0,
+        "max_mana": 60,
+        "crit_rate": 25,
+        "range": 1
+      }
+    },
+    "TFT14_Sylas": {
+      "name": "Sylas",
+      "icon": "TFT14_Sylas.png",
+      "cost": 1,
+      "traits": {
+        "origin": ["TFT14_AnimaSquad"],
+        "class": ["TFT14_Vanguard"]
+      },
+      "ability": {
+        "name": "Chains of the Pack",
+        "description": "Gain Health and deal magic damage with bonus Health on kill.",
+        "type": "Active"
+      },
+      "stats": {
+        "health": 650,
+        "armor": 40,
+        "magic_resist": 40,
+        "damage": 45,
+        "attack_speed": 0.65,
+        "dps": 29,
+        "start_mana": 30,
+        "max_mana": 80,
+        "crit_rate": 25,
+        "range": 1
+      }
+    },
+    "TFT14_TwistedFate": {
+      "name": "Twisted Fate",
+      "icon": "TFT14_TwistedFate.png",
+      "cost": 2,
+      "traits": {
+        "origin": ["TFT14_Mob"],
+        "class": ["TFT14_Swift"]
+      },
+      "ability": {
+        "name": "Ace High",
+        "description": "Gain AP from attacks and throw cards dealing magic damage.",
+        "type": "Active"
+      },
+      "stats": {
+        "health": 600,
+        "armor": 20,
+        "magic_resist": 20,
+        "damage": 35,
+        "attack_speed": 0.75,
+        "dps": 26,
+        "start_mana": 0,
+        "max_mana": 60,
+        "crit_rate": 25,
+        "range": 4
+      }
+    },
+    "TFT14_Urgot": {
+      "name": "Urgot",
+      "icon": "TFT14_Urgot.png",
+      "cost": 5,
+      "traits": {
+        "origin": ["TFT14_BallisTek"],
+        "class": ["TFT14_Cutter"]
+      },
+      "ability": {
+        "name": "Fear Beyond Death",
+        "description": "Fire rockets at enemies and execute low health targets.",
+        "type": "Active"
+      },
+      "stats": {
+        "health": 850,
+        "armor": 40,
+        "magic_resist": 40,
+        "damage": 60,
+        "attack_speed": 0.8,
+        "dps": 48,
+        "start_mana": 30,
+        "max_mana": 80,
+        "crit_rate": 25,
+        "range": 4
+      }
+    },
+    "TFT14_Varus": {
+      "name": "Varus",
+      "icon": "TFT14_Varus.png",
+      "cost": 3,
+      "traits": {
+        "origin": ["TFT14_EdgeRunner"],
+        "class": ["TFT14_Cutter"]
+      },
+      "ability": {
+        "name": "Malware Chain",
+        "description": "Fire a chain that damages and stuns the target with additional chains.",
+        "type": "Active"
+      },
+      "stats": {
+        "health": 700,
+        "armor": 25,
+        "magic_resist": 25,
+        "damage": 35,
+        "attack_speed": 0.7,
+        "dps": 25,
+        "start_mana": 20,
+        "max_mana": 70,
+        "crit_rate": 25,
+        "range": 4
+      }
+    },
+    "TFT14_Vayne": {
+      "name": "Vayne",
+      "icon": "TFT14_Vayne.png",
+      "cost": 2,
+      "traits": {
+        "origin": ["TFT14_AnimaSquad"],
+        "class": ["TFT14_Strong"]
+      },
+      "ability": {
+        "name": "Bat Bolts",
+        "description": "Fire attacks that deal true damage, with a powerful final shot.",
+        "type": "Active"
+      },
+      "stats": {
+        "health": 550,
+        "armor": 20,
+        "magic_resist": 20,
+        "damage": 50,
+        "attack_speed": 0.7,
+        "dps": 35,
+        "start_mana": 0,
+        "max_mana": 40,
+        "crit_rate": 25,
+        "range": 4
+      }
+    },
+    "TFT14_Veigar": {
+      "name": "Veigar",
+      "icon": "TFT14_Veigar.png",
+      "cost": 2,
+      "traits": {
+        "origin": ["TFT14_Cyberboss"],
+        "class": ["TFT14_Techie"]
+      },
+      "ability": {
+        "name": "Cyber Supremacy",
+        "description": "Deal magic damage with true damage based on star level comparison.",
+        "type": "Active"
+      },
+      "stats": {
+        "health": 550,
+        "armor": 20,
+        "magic_resist": 20,
+        "damage": 35,
+        "attack_speed": 0.7,
+        "dps": 25,
+        "start_mana": 20,
+        "max_mana": 60,
+        "crit_rate": 25,
+        "range": 4
+      }
+    },
+    "TFT14_Vex": {
+      "name": "Vex",
+      "icon": "TFT14_Vex.png",
+      "cost": 4,
+      "traits": {
+        "origin": ["TFT14_Divinicorp"],
+        "class": ["TFT14_Cutter"]
+      },
+      "ability": {
+        "name": "Retribution",
+        "description": "Deal magic damage to enemies and convert overhealing to damage.",
+        "type": "Active"
+      },
+      "stats": {
+        "health": 800,
+        "armor": 30,
+        "magic_resist": 30,
+        "damage": 30,
+        "attack_speed": 0.8,
+        "dps": 24,
+        "start_mana": 20,
+        "max_mana": 80,
+        "crit_rate": 25,
+        "range": 4
+      }
+    },
+    "TFT14_Vi": {
+      "name": "Vi",
+      "icon": "TFT14_Vi.png",
+      "cost": 1,
+      "traits": {
+        "origin": ["TFT14_Suits"],
+        "class": ["TFT14_Vanguard"]
+      },
+      "ability": {
+        "name": "Block Chain",
+        "description": "Gain a shield and enhance next attack with bonus damage.",
+        "type": "Active"
+      },
+      "stats": {
+        "health": 650,
+        "armor": 40,
+        "magic_resist": 40,
+        "damage": 55,
+        "attack_speed": 0.6,
+        "dps": 33,
+        "start_mana": 0,
+        "max_mana": 60,
+        "crit_rate": 25,
+        "range": 1
+      }
+    },
+    "TFT14_Viego": {
+      "name": "Viego",
+      "icon": "TFT14_Viego.png",
+      "cost": 5,
+      "traits": {
+        "origin": ["TFT14_ViegoUniqueTrait", "TFT14_Immortal"],
+        "class": ["TFT14_Techie"]
+      },
+      "ability": {
+        "name": "Holoblade",
+        "description": "Absorb souls from dead units and jump to enemies dealing magic damage.",
+        "type": "Active"
+      },
+      "stats": {
+        "health": 1100,
+        "armor": 60,
+        "magic_resist": 60,
+        "damage": 60,
+        "attack_speed": 0.9,
+        "dps": 54,
+        "start_mana": 40,
+        "max_mana": 90,
+        "crit_rate": 25,
+        "range": 1
+      }
+    },
+    "TFT14_Xayah": {
+      "name": "Xayah",
+      "icon": "TFT14_Xayah.png",
+      "cost": 4,
+      "traits": {
+        "origin": ["TFT14_AnimaSquad"],
+        "class": ["TFT14_Marksman"]
+      },
+      "ability": {
+        "name": "Buffer Overflow",
+        "description": "Impale feathers into targets that explode when the target dies.",
+        "type": "Active"
+      },
+      "stats": {
+        "health": 800,
+        "armor": 30,
+        "magic_resist": 30,
+        "damage": 55,
+        "attack_speed": 0.8,
+        "dps": 44,
+        "start_mana": 20,
+        "max_mana": 80,
+        "crit_rate": 25,
+        "range": 4
+      }
+    },
+    "TFT14_Yuumi": {
+      "name": "Yuumi",
+      "icon": "TFT14_Yuumi.png",
+      "cost": 3,
+      "traits": {
+        "origin": ["TFT14_AnimaSquad"],
+        "class": ["TFT14_Supercharge", "TFT14_Controller"]
+      },
+      "ability": {
+        "name": "Yuum.AI",
+        "description": "Gain mana every second and fire magic missiles at enemies.",
+        "type": "Active"
+      },
+      "stats": {
+        "health": 650,
+        "armor": 25,
+        "magic_resist": 25,
+        "damage": 35,
+        "attack_speed": 0.75,
+        "dps": 26,
+        "start_mana": 30,
+        "max_mana": 80,
+        "crit_rate": 25,
+        "range": 4
+      }
+    },
+    "TFT14_Zac": {
+      "name": "Zac",
+      "icon": "TFT14_Zac.png",
+      "cost": 5,
+      "traits": {
+        "origin": ["TFT14_Virus"],
+        "class": []
+      },
+      "ability": {
+        "name": "Replicating Malware",
+        "description": "Split at low health and damage enemies with bouncing attacks.",
+        "type": "Active"
+      },
+      "stats": {
+        "health": 900,
+        "armor": 40,
+        "magic_resist": 40,
+        "damage": 70,
+        "attack_speed": 0.8,
+        "dps": 56,
+        "start_mana": 40,
+        "max_mana": 100,
+        "crit_rate": 25,
+        "range": 1
+      }
+    },
+    "TFT14_Zed": {
+      "name": "Zed",
+      "icon": "TFT14_Zed.png",
+      "cost": 4,
+      "traits": {
+        "origin": ["TFT14_Suits"],
+        "class": ["TFT14_Strong"]
+      },
+      "ability": {
+        "name": "Cutthroat Business",
+        "description": "Mark and teleport to enemies, summoning shadows to deal damage.",
+        "type": "Active"
+      },
+      "stats": {
+        "health": 1050,
+        "armor": 65,
+        "magic_resist": 65,
+        "damage": 50,
+        "attack_speed": 0.85,
+        "dps": 43,
+        "start_mana": 30,
+        "max_mana": 80,
+        "crit_rate": 25,
+        "range": 1
+      }
+    },
+    "TFT14_Zeri": {
+      "name": "Zeri",
+      "icon": "TFT14_Zeri.png",
+      "cost": 4,
+      "traits": {
+        "origin": ["TFT14_EdgeRunner"],
+        "class": ["TFT14_Swift"]
+      },
+      "ability": {
+        "name": "Hyperthread Rush",
+        "description": "Create an untargetable echo that attacks like Zeri.",
+        "type": "Active"
+      },
+      "stats": {
+        "health": 800,
+        "armor": 30,
+        "magic_resist": 30,
+        "damage": 68,
+        "attack_speed": 0.75,
+        "dps": 51,
+        "start_mana": 0,
+        "max_mana": 60,
+        "crit_rate": 25,
+        "range": 5
+      }
+    },
+    "TFT14_Ziggs": {
+      "name": "Ziggs",
+      "icon": "TFT14_Ziggs.png",
+      "cost": 4,
+      "traits": {
+        "origin": ["TFT14_Cyberboss"],
+        "class": ["TFT14_Controller"]
+      },
+      "ability": {
+        "name": "Bomberyordle",
+        "description": "Throw a bomb that hits enemies in a pattern dealing magic damage.",
+        "type": "Active"
+      },
+      "stats": {
+        "health": 850,
+        "armor": 30,
+        "magic_resist": 30,
+        "damage": 40,
+        "attack_speed": 0.75,
+        "dps": 30,
+        "start_mana": 20,
+        "max_mana": 80,
+        "crit_rate": 25,
+        "range": 4
+      }
+    },
+    "TFT14_Zyra": {
+      "name": "Zyra",
+      "icon": "TFT14_Zyra.png",
+      "cost": 1,
+      "traits": {
+        "origin": ["TFT14_StreetDemon"],
+        "class": ["TFT14_Techie"]
+      },
+      "ability": {
+        "name": "Stroke of Brilliance",
+        "description": "Send vines at enemies dealing magic damage and stunning.",
+        "type": "Active"
+      },
+      "stats": {
+        "health": 500,
+        "armor": 15,
+        "magic_resist": 15,
+        "damage": 30,
+        "attack_speed": 0.7,
+        "dps": 21,
+        "start_mana": 0,
+        "max_mana": 50,
+        "crit_rate": 25,
+        "range": 4
+      }
+    }
+  }
+}
